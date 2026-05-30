@@ -1,0 +1,253 @@
+[
+  {
+    "id": "raw_materials",
+    "label": "Raw Materials & Mining",
+    "shortLabel": "Raw Mat",
+    "order": 0,
+    "desc": "Upstream producers of copper, aluminum, lithium, rare earths, and other industrial metals and materials feeding power equipment, semiconductors, and infrastructure.",
+    "fundamentals": {
+      "avgPe": 27.563610666666666,
+      "avgRevenueTTM": 20978030403.555557,
+      "totalRevenueTTM": 188802273632,
+      "sampleSize": 9,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "utilities_power",
+    "label": "Utilities & Grid",
+    "shortLabel": "Grid",
+    "order": 1,
+    "desc": "Regulated utilities and IPPs providing generation and transmission capacity; includes grid operators whose interconnect queues and grid upgrades gate AI DC buildout.",
+    "fundamentals": {
+      "avgPe": 26.532244187500005,
+      "avgRevenueTTM": 19922231056,
+      "totalRevenueTTM": 159377848448,
+      "sampleSize": 8,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "power_electrical",
+    "label": "Power & Electrical Equipment",
+    "shortLabel": "Power Eq",
+    "order": 2,
+    "desc": "Transformers, switchgear, breakers, MV/LV gear, UPS, busways; the middle mile of power from substation to rack. Structural bottleneck due to long lead times.",
+    "fundamentals": {
+      "avgPe": 40.9719375,
+      "avgRevenueTTM": 16277825706.666666,
+      "totalRevenueTTM": 97666954240,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "cooling_thermal",
+    "label": "Cooling & Thermal",
+    "shortLabel": "Cooling",
+    "order": 3,
+    "desc": "Liquid cooling, chillers, heat exchangers, air handling, and thermal management systems needed for high-density AI racks.",
+    "fundamentals": {
+      "avgPe": 60.66743,
+      "avgRevenueTTM": 13063620096,
+      "totalRevenueTTM": 65318100480,
+      "sampleSize": 5,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "data_center_infra",
+    "label": "Data Center Infrastructure",
+    "shortLabel": "DC Infra",
+    "order": 4,
+    "desc": "Colocation REITs and dedicated DC operators providing buildings, campuses, and basic MEP infrastructure for hyperscalers.",
+    "fundamentals": {
+      "avgPe": 73.5468795,
+      "avgRevenueTTM": 8476176256,
+      "totalRevenueTTM": 33904705024,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "semi_fabrication",
+    "label": "Semiconductor Fabrication",
+    "shortLabel": "Fabs",
+    "order": 5,
+    "desc": "Foundries and IDMs that manufacture logic and memory wafers (advanced and trailing-edge) for AI servers.",
+    "fundamentals": {
+      "avgPe": 44.198416800000004,
+      "avgRevenueTTM": 78548820523315.2,
+      "totalRevenueTTM": 392744102616576,
+      "sampleSize": 5,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "semi_equipment",
+    "label": "Semi Equipment & Lithography",
+    "shortLabel": "Semi Eq",
+    "order": 6,
+    "desc": "Tool makers (EUV, deposition, etch, metrology, test) required to expand wafer capacity; often the upstream constraint on fab output.",
+    "fundamentals": {
+      "avgPe": 67.46508716666666,
+      "avgRevenueTTM": 17052108149.333334,
+      "totalRevenueTTM": 102312648896,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "packaging_osat",
+    "label": "Advanced Packaging & OSAT",
+    "shortLabel": "Packaging",
+    "order": 7,
+    "desc": "OSATs and in-house advanced packaging (CoWoS, InFO, HBM stacking, 2.5D/3D) that assemble dies into usable packages for GPUs, memory, and key ICs.",
+    "fundamentals": {
+      "avgPe": 92.15405633333334,
+      "avgRevenueTTM": 226155606528,
+      "totalRevenueTTM": 678466819584,
+      "sampleSize": 3,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "memory_storage",
+    "label": "Memory & Storage",
+    "shortLabel": "Memory",
+    "order": 8,
+    "desc": "DRAM, HBM, NAND, SSD/HDD vendors and storage systems used in AI servers and data centers. HBM is increasingly a binding constraint on GPU shipments.",
+    "fundamentals": {
+      "avgPe": 52.25984042857143,
+      "avgRevenueTTM": 23875060285293.715,
+      "totalRevenueTTM": 167125421997056,
+      "sampleSize": 7,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "ai_accel_compute",
+    "label": "AI Accelerators & Compute",
+    "shortLabel": "AI Compute",
+    "order": 9,
+    "desc": "GPUs and AI accelerators plus closely linked custom AI ASICs (training/inference), including key accelerator IP vendors.",
+    "fundamentals": {
+      "avgPe": 120.72070833333333,
+      "avgRevenueTTM": 69471267242.66667,
+      "totalRevenueTTM": 416827603456,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "networking_optical",
+    "label": "Networking & Optical",
+    "shortLabel": "Networking",
+    "order": 10,
+    "desc": "Data-center networking: switches, NICs, copper/optical interconnect, transceivers used in AI clusters and DCI.",
+    "fundamentals": {
+      "avgPe": 140.75800666666666,
+      "avgRevenueTTM": 18429078528,
+      "totalRevenueTTM": 110574471168,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "contract_manufacturing",
+    "label": "Contract Manufacturing (EMS)",
+    "shortLabel": "EMS",
+    "order": 11,
+    "desc": "EMS/ODM/CMs assembling servers, racks, and sometimes full systems (including white box for hyperscalers).",
+    "fundamentals": {
+      "avgPe": 51.95325066666666,
+      "avgRevenueTTM": 24790100309.333332,
+      "totalRevenueTTM": 74370300928,
+      "sampleSize": 3,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "hyperscaler_cloud",
+    "label": "Hyperscaler & Cloud Platforms",
+    "shortLabel": "Hyperscaler",
+    "order": 12,
+    "desc": "Hyperscale cloud providers and large internet platforms building and operating AI data centers and exposing compute, storage, and platform services.",
+    "fundamentals": {
+      "avgPe": 25.137043124999998,
+      "avgRevenueTTM": 452921123328,
+      "totalRevenueTTM": 3623368986624,
+      "sampleSize": 8,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "ai_model_labs",
+    "label": "AI Model Labs",
+    "shortLabel": "Model Labs",
+    "order": 13,
+    "desc": "Frontier and leading model/API providers training large models and selling access via APIs and platforms, independent (or semi-independent) of hyperscalers.",
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "enterprise_software",
+    "label": "Enterprise Software & SaaS",
+    "shortLabel": "Enterprise",
+    "order": 14,
+    "desc": "Horizontal and vertical SaaS platforms embedding AI into workflows (CRM, ERP, analytics, observability, etc.).",
+    "fundamentals": {
+      "avgPe": 96.39085170000001,
+      "avgRevenueTTM": 14348533507.2,
+      "totalRevenueTTM": 143485335072,
+      "sampleSize": 10,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "digital_advertising",
+    "label": "Digital Advertising & Media",
+    "shortLabel": "Ads",
+    "order": 15,
+    "desc": "Online ad platforms and related measurement/optimization players monetizing engagement and attention, increasingly with AI-driven targeting and creative.",
+    "fundamentals": {
+      "avgPe": 31.075440125,
+      "avgRevenueTTM": 4901156544,
+      "totalRevenueTTM": 19604626176,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  },
+  {
+    "id": "industrial_automation",
+    "label": "Industrial & Automation",
+    "shortLabel": "Industrial",
+    "order": 16,
+    "desc": "Industrial automation / building automation vendors, plus DC-adjacent automation (facility controls, smart manufacturing, industrial AI).",
+    "fundamentals": {
+      "avgPe": 36.60551425,
+      "avgRevenueTTM": 41578749952,
+      "totalRevenueTTM": 166314999808,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    }
+  }
+]

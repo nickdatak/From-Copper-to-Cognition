@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="dark"] {
+  /* TradingView / Robinhood-like dark palette */
+  /* “Elite” graphite + champagne + sapphire */
+  --bg: #0a0c10;
+  --bg-elevated: #0d1118;
+  --surface: #0f141d;
+  --surface-hover: #131a26;
+  --border: #20283a;
+  --border-subtle: #141b28;
+  --text: #eef2f8;
+  --text-muted: #a7b0c0;
+  --text-dim: #76819a;
+  /* Primary accent (champagne gold) */
+  --accent: #d6b25e;
+  --accent-dim: #a88734;
+  --accent-glow: rgba(214, 178, 94, 0.14);
+  /* Chain colors */
+  --chain-upstream: #4aa3ff;
+  --chain-downstream: #f0b04a;
+  --danger: #ff4d4d;
+  --success: #3ddc97;
+
+  --layer-raw: #6b8a9e;
+  --layer-grid: #7a8e6e;
+  --layer-facilities: #8a7e6e;
+  --layer-cooling: #6e8a8a;
+  --layer-semi: #9e8a6e;
+  --layer-packaging: #8a6e9e;
+  --layer-compute: #9e6e6e;
+  --layer-networking: #6e7a9e;
+  --layer-cloud: #7a6e9e;
+  --layer-model: #9e7a8a;
+  --layer-application: #8a9e7a;
+  --layer-monetization: #c4a574;
+
+  font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+[data-theme="light"] {
+  /* TradingView-like light palette */
+  --bg: #f6f8fb;
+  --bg-elevated: #eef2f7;
+  --surface: #ffffff;
+  --surface-hover: #f3f6fb;
+  --border: #d8e1ee;
+  --border-subtle: #e7edf6;
+  --text: #0b1220;
+  --text-muted: #44546a;
+  --text-dim: #6b7a90;
+  --accent: #a88734;
+  --accent-dim: #7b621f;
+  --accent-glow: rgba(168, 135, 52, 0.12);
+  --chain-upstream: #1d74d8;
+  --chain-downstream: #d97706;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+.graph-bg {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% 50%, rgba(214, 178, 94, 0.04) 0%, transparent 70%),
+    linear-gradient(var(--border-subtle) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border-subtle) 1px, transparent 1px);
+  background-size: 100% 100%, 24px 24px, 24px 24px;
+}
+
+.panel {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+.btn-ghost {
+  @apply px-2 py-1 text-xs rounded border transition-colors;
+  color: var(--text-muted);
+  border-color: var(--border);
+  background: transparent;
+}
+.btn-ghost:hover {
+  color: var(--text);
+  background: var(--surface-hover);
+  border-color: var(--text-dim);
+}
+.btn-ghost.active {
+  color: var(--accent);
+  border-color: var(--accent-dim);
+  background: var(--accent-glow);
+}
+
+.btn-primary {
+  @apply px-3 py-1.5 text-xs rounded border transition-colors;
+  color: #0a0c10;
+  background: var(--accent);
+  border-color: var(--accent-dim);
+}
+.btn-primary:hover {
+  filter: brightness(1.08);
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+}
+
+input[type="text"],
+input[type="search"],
+select {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 4px;
+}
+input:focus,
+select:focus {
+  outline: 1px solid var(--accent-dim);
+  outline-offset: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+.view-tab {
+  @apply rounded px-2.5 py-1 text-xs transition-colors;
+  color: var(--text-muted);
+}
+.view-tab:hover {
+  color: var(--text);
+}
+.view-tab-active {
+  color: var(--text);
+  background: var(--surface);
+  box-shadow: 0 0 0 1px var(--border);
+}
+
+.globe-view {
+  background:
+    radial-gradient(ellipse 70% 50% at 50% 45%, rgba(74, 163, 255, 0.06) 0%, transparent 65%),
+    var(--bg);
+}
+
+.globe-hud {
+  pointer-events: auto;
+}
+
+.globe-tooltip {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 11px;
+  line-height: 1.35;
+  padding: 4px 8px;
+  color: var(--text);
+  background: rgba(15, 20, 29, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,6 @@
+yfinance==0.2.65
+requests==2.32.4
+networkx==3.2.1
+# Python 3.9 compatibility (avoid NumPy 2 / pyarrow ABI issues)
+numpy==1.26.4
+pandas==2.1.4

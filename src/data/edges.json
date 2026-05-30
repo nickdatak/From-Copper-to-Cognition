@@ -1,0 +1,455 @@
+[
+  {
+    "id": "ce_0",
+    "source": "raw_materials",
+    "target": "power_electrical",
+    "edgeType": "physical_dependency",
+    "strength": 0.72,
+    "directionality": "directed",
+    "lag": "12-36 months",
+    "description": "Metals and materials are required for transformers, switchgear, and other electrical equipment used to connect data centers to the grid.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_1",
+    "source": "raw_materials",
+    "target": "semi_fabrication",
+    "edgeType": "physical_dependency",
+    "strength": 0.68,
+    "directionality": "directed",
+    "lag": "12-36 months",
+    "description": "Silicon, specialty gases, and metals are core inputs to wafer fabrication.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_2",
+    "source": "utilities_power",
+    "target": "power_electrical",
+    "edgeType": "power_flow",
+    "strength": 0.78,
+    "directionality": "directed",
+    "lag": "12-24 months",
+    "description": "Grid and generation expansion requires new transformers and grid hardware to step and distribute power.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack",
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_3",
+    "source": "utilities_power",
+    "target": "data_center_infra",
+    "edgeType": "power_flow",
+    "strength": 0.82,
+    "directionality": "directed",
+    "lag": "24-60 months",
+    "description": "Interconnection delays and grid constraints gate bringing new AI data centers online.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack",
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_4",
+    "source": "utilities_power",
+    "target": "cooling_thermal",
+    "edgeType": "power_flow",
+    "strength": 0.7,
+    "directionality": "directed",
+    "lag": "12-36 months",
+    "description": "Cooling systems for high-density AI racks materially increase power draw and depend on adequate utility supply.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_5",
+    "source": "power_electrical",
+    "target": "data_center_infra",
+    "edgeType": "physical_dependency",
+    "strength": 0.8,
+    "directionality": "directed",
+    "lag": "12-36 months",
+    "description": "Substations, switchgear, and campus power distribution are required before DCs can operate.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_6",
+    "source": "power_electrical",
+    "target": "cooling_thermal",
+    "edgeType": "power_flow",
+    "strength": 0.75,
+    "directionality": "directed",
+    "lag": "0-12 months",
+    "description": "Electrical systems feed chillers, pumps, and liquid cooling; higher rack densities raise cooling power proportionally.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_7",
+    "source": "cooling_thermal",
+    "target": "data_center_infra",
+    "edgeType": "physical_dependency",
+    "strength": 0.76,
+    "directionality": "directed",
+    "lag": "0-12 months",
+    "description": "Adequate thermal systems are necessary for operating data centers safely at AI rack densities.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_8",
+    "source": "cooling_thermal",
+    "target": "ai_accel_compute",
+    "edgeType": "physical_dependency",
+    "strength": 0.74,
+    "directionality": "directed",
+    "lag": "0-12 months",
+    "description": "AI accelerators at high power densities require advanced cooling at rack and chip level.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_9",
+    "source": "data_center_infra",
+    "target": "hyperscaler_cloud",
+    "edgeType": "capacity_translation",
+    "strength": 0.88,
+    "directionality": "directed",
+    "lag": "12-36 months",
+    "description": "Additional DC capacity enables cloud regions and zones; colos and DC REITs enable hyperscaler expansion.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack",
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_10",
+    "source": "semi_equipment",
+    "target": "semi_fabrication",
+    "edgeType": "bottleneck_constraint",
+    "strength": 0.85,
+    "directionality": "directed",
+    "lag": "18-48 months",
+    "description": "Tool availability and long lead times constrain how quickly fabs can add advanced-node wafer capacity.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_11",
+    "source": "semi_fabrication",
+    "target": "semi_equipment",
+    "edgeType": "commercial_flow",
+    "strength": 0.72,
+    "directionality": "directed",
+    "lag": "6-24 months",
+    "description": "Fabs purchase equipment; capex cycles at fabs drive revenues for tool vendors.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_12",
+    "source": "semi_fabrication",
+    "target": "packaging_osat",
+    "edgeType": "capacity_translation",
+    "strength": 0.83,
+    "directionality": "directed",
+    "lag": "6-24 months",
+    "description": "More wafers require more advanced packaging capacity (CoWoS, 2.5D/3D) to turn them into usable devices.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_13",
+    "source": "semi_fabrication",
+    "target": "memory_storage",
+    "edgeType": "capacity_translation",
+    "strength": 0.8,
+    "directionality": "directed",
+    "lag": "6-24 months",
+    "description": "DRAM/HBM/NAND output depends on wafer capacity.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_14",
+    "source": "packaging_osat",
+    "target": "memory_storage",
+    "edgeType": "physical_dependency",
+    "strength": 0.84,
+    "directionality": "directed",
+    "lag": "3-18 months",
+    "description": "Advanced packaging is needed for HBM stacks and high-performance memory modules.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_15",
+    "source": "packaging_osat",
+    "target": "ai_accel_compute",
+    "edgeType": "physical_dependency",
+    "strength": 0.82,
+    "directionality": "directed",
+    "lag": "3-18 months",
+    "description": "Advanced packaging (HBM-on-package, CoWoS) is required to assemble usable AI accelerators.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_16",
+    "source": "memory_storage",
+    "target": "ai_accel_compute",
+    "edgeType": "bottleneck_constraint",
+    "strength": 0.88,
+    "directionality": "directed",
+    "lag": "6-24 months",
+    "description": "HBM supply is a critical binding constraint on GPU shipments; under-supply caps effective accelerator capacity.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html",
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_17",
+    "source": "ai_accel_compute",
+    "target": "contract_manufacturing",
+    "edgeType": "capacity_translation",
+    "strength": 0.86,
+    "directionality": "directed",
+    "lag": "3-12 months",
+    "description": "GPU and accelerator chips must be integrated into boards and servers by EMS/ODMs.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html"
+    ]
+  },
+  {
+    "id": "ce_18",
+    "source": "contract_manufacturing",
+    "target": "hyperscaler_cloud",
+    "edgeType": "commercial_flow",
+    "strength": 0.78,
+    "directionality": "directed",
+    "lag": "3-18 months",
+    "description": "EMS/ODMs supply complete servers/racks to hyperscalers and labs, enabling cluster buildouts.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_19",
+    "source": "ai_accel_compute",
+    "target": "networking_optical",
+    "edgeType": "data_flow",
+    "strength": 0.8,
+    "directionality": "directed",
+    "lag": "0-18 months",
+    "description": "Scaling AI clusters increases demand for high-bandwidth switches, NICs, and optical/copper interconnect.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_20",
+    "source": "networking_optical",
+    "target": "contract_manufacturing",
+    "edgeType": "physical_dependency",
+    "strength": 0.7,
+    "directionality": "directed",
+    "lag": "3-18 months",
+    "description": "Network hardware is often assembled by EMS/ODMs alongside servers/racks.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_21",
+    "source": "networking_optical",
+    "target": "hyperscaler_cloud",
+    "edgeType": "data_flow",
+    "strength": 0.76,
+    "directionality": "directed",
+    "lag": "0-18 months",
+    "description": "High-capacity networking and DCI fabric are required for hyperscaler AI cluster operations.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_22",
+    "source": "networking_optical",
+    "target": "ai_model_labs",
+    "edgeType": "data_flow",
+    "strength": 0.68,
+    "directionality": "directed",
+    "lag": "0-18 months",
+    "description": "Frontier labs depend on high-bandwidth interconnect and DCI, especially when spanning colos/hyperscalers.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_23",
+    "source": "memory_storage",
+    "target": "hyperscaler_cloud",
+    "edgeType": "capacity_translation",
+    "strength": 0.74,
+    "directionality": "directed",
+    "lag": "6-24 months",
+    "description": "Additional DRAM/NAND supply is required to populate servers and storage systems backing AI workloads.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_24",
+    "source": "hyperscaler_cloud",
+    "target": "ai_model_labs",
+    "edgeType": "commercial_flow",
+    "strength": 0.82,
+    "directionality": "directed",
+    "lag": "0-12 months",
+    "description": "Labs rent compute and storage from hyperscalers (or partner with them) for training and serving models.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_25",
+    "source": "hyperscaler_cloud",
+    "target": "enterprise_software",
+    "edgeType": "commercial_flow",
+    "strength": 0.84,
+    "directionality": "directed",
+    "lag": "0-24 months",
+    "description": "SaaS vendors consume cloud GPUs, storage, and managed services to build AI features.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_26",
+    "source": "hyperscaler_cloud",
+    "target": "digital_advertising",
+    "edgeType": "revenue_capture",
+    "strength": 0.8,
+    "directionality": "directed",
+    "lag": "0-36 months",
+    "description": "Hyperscaler AI infrastructure underpins ad ranking, targeting, and measurement; ad revenue is a major monetization endpoint.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack",
+      "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers"
+    ]
+  },
+  {
+    "id": "ce_27",
+    "source": "ai_model_labs",
+    "target": "enterprise_software",
+    "edgeType": "data_flow",
+    "strength": 0.86,
+    "directionality": "directed",
+    "lag": "0-12 months",
+    "description": "Enterprise SaaS integrates APIs and models (embeddings, copilots, agents) from labs.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_28",
+    "source": "ai_model_labs",
+    "target": "digital_advertising",
+    "edgeType": "revenue_capture",
+    "strength": 0.72,
+    "directionality": "directed",
+    "lag": "0-24 months",
+    "description": "Models improve ad relevance, creative generation, and campaign optimization for ad platforms.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_29",
+    "source": "ai_accel_compute",
+    "target": "ai_model_labs",
+    "edgeType": "commercial_flow",
+    "strength": 0.7,
+    "directionality": "directed",
+    "lag": "0-24 months",
+    "description": "Labs procure GPUs/accelerators directly (or via cloud), driving demand for accelerator vendors.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_30",
+    "source": "enterprise_software",
+    "target": "digital_advertising",
+    "edgeType": "revenue_capture",
+    "strength": 0.48,
+    "directionality": "directed",
+    "lag": "0-24 months",
+    "description": "Some enterprise tools feed marketing automation and CDPs that influence ad spend (weaker link).",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  },
+  {
+    "id": "ce_31",
+    "source": "industrial_automation",
+    "target": "power_electrical",
+    "edgeType": "commercial_flow",
+    "strength": 0.65,
+    "directionality": "directed",
+    "lag": "0-24 months",
+    "description": "Industrial automation vendors rely on electrical gear and sometimes co-sell integrated power + control solutions.",
+    "flowType": "inter_cluster",
+    "evidence": [
+      "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack"
+    ]
+  }
+]

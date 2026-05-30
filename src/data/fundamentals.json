@@ -1,0 +1,701 @@
+{
+  "asOf": "2026-05-28T08:39:15Z",
+  "source": "yfinance",
+  "ok": 99,
+  "fail": 0,
+  "byTicker": {
+    "000660.KS": {
+      "pe": 5.987501,
+      "revenueTTM": 167020960153600.0,
+      "marketCap": 1624857934561280.0,
+      "currency": "KRW",
+      "source": "yfinance"
+    },
+    "AA": {
+      "pe": 18.75641,
+      "revenueTTM": 12654999552.0,
+      "marketCap": 19303544832.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ABB": {
+      "pe": null,
+      "revenueTTM": null,
+      "marketCap": null,
+      "currency": null,
+      "source": "yfinance"
+    },
+    "ADBE": {
+      "pe": 13.891546,
+      "revenueTTM": 24452999168.0,
+      "marketCap": 96296607744.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AES": {
+      "pe": 7.6458335,
+      "revenueTTM": 12487000064.0,
+      "marketCap": 10469154816.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AI": {
+      "pe": -11.418706,
+      "revenueTTM": 307391008.0,
+      "marketCap": 1393342720.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ALB": {
+      "pe": 14.928109,
+      "revenueTTM": 5494582784.0,
+      "marketCap": 20929861632.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AMAT": {
+      "pe": 42.2081,
+      "revenueTTM": 29024000000.0,
+      "marketCap": 355892297728.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AMD": {
+      "pe": 164.08609,
+      "revenueTTM": 37454000128.0,
+      "marketCap": 808027815936.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AMKR": {
+      "pe": 41.488506,
+      "revenueTTM": 7071107072.0,
+      "marketCap": 17893916672.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AMT": {
+      "pe": 29.835484,
+      "revenueTTM": 10819300352.0,
+      "marketCap": 86180896768.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AMZN": {
+      "pe": 31.647264,
+      "revenueTTM": 742775980032.0,
+      "marketCap": 2924320391168.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ANET": {
+      "pe": 52.84589,
+      "revenueTTM": 9709899776.0,
+      "marketCap": 194302427136.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "APH": {
+      "pe": 40.29885,
+      "revenueTTM": 25903800320.0,
+      "marketCap": 172528091136.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "APP": {
+      "pe": 49.24805,
+      "revenueTTM": 6164192256.0,
+      "marketCap": 190756536320.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ARM": {
+      "pe": 356.1294,
+      "revenueTTM": 4920000000.0,
+      "marketCap": 322099707904.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ASML": {
+      "pe": 53.19141,
+      "revenueTTM": 33692700672.0,
+      "marketCap": 615847297024.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ASX": {
+      "pe": 60.107693,
+      "revenueTTM": 670896619520.0,
+      "marketCap": 85717467136.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "AVGO": {
+      "pe": 81.91456,
+      "revenueTTM": 68281999360.0,
+      "marketCap": 1997367148544.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "BABA": {
+      "pe": 19.71605,
+      "revenueTTM": 1023670026240.0,
+      "marketCap": 306513346560.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "BHP": {
+      "pe": 21.848259,
+      "revenueTTM": 53987999744.0,
+      "marketCap": 223118508032.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CAMT": {
+      "pe": 174.86597,
+      "revenueTTM": 499092992.0,
+      "marketCap": 7810063872.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CEG": {
+      "pe": 25.059027,
+      "revenueTTM": 29866999808.0,
+      "marketCap": 104268341248.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CIEN": {
+      "pe": 370.7516,
+      "revenueTTM": 5124289024.0,
+      "marketCap": 82305204224.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CLS": {
+      "pe": 43.305084,
+      "revenueTTM": 13789299712.0,
+      "marketCap": 41125879808.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "COHR": {
+      "pe": 181.90431,
+      "revenueTTM": 6602083840.0,
+      "marketCap": 74378158080.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CRM": {
+      "pe": 20.568945,
+      "revenueTTM": 41524998144.0,
+      "marketCap": 145212719104.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "CSCO": {
+      "pe": 39.89,
+      "revenueTTM": 60745998336.0,
+      "marketCap": 471671472128.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "DDOG": {
+      "pe": 554.52496,
+      "revenueTTM": 3672030976.0,
+      "marketCap": 78955528192.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "DLR": {
+      "pe": 50.716934,
+      "revenueTTM": 6314048000.0,
+      "marketCap": 68574490624.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "DUK": {
+      "pe": 19.254992,
+      "revenueTTM": 32718999552.0,
+      "marketCap": 97722384384.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "EMR": {
+      "pe": 32.34259,
+      "revenueTTM": 18315999232.0,
+      "marketCap": 78257168384.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ENPH": {
+      "pe": 69.58416,
+      "revenueTTM": 1399800960.0,
+      "marketCap": 9262779392.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "EQIX": {
+      "pe": 74.06367,
+      "revenueTTM": 9525999616.0,
+      "marketCap": 105549643776.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ETN": {
+      "pe": 39.840195,
+      "revenueTTM": 28522000384.0,
+      "marketCap": 157793468416.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "FCX": {
+      "pe": 33.666668,
+      "revenueTTM": 26421000192.0,
+      "marketCap": 91471929344.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "FII": {
+      "pe": null,
+      "revenueTTM": null,
+      "marketCap": null,
+      "currency": null,
+      "source": "yfinance"
+    },
+    "FLEX": {
+      "pe": 62.570816,
+      "revenueTTM": 27914000384.0,
+      "marketCap": 53414236160.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "FSLR": {
+      "pe": 17.667528,
+      "revenueTTM": 5419047936.0,
+      "marketCap": 29406763008.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "GEV": {
+      "pe": 30.119383,
+      "revenueTTM": 39374999552.0,
+      "marketCap": 277289500672.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "GFS": {
+      "pe": 51.012577,
+      "revenueTTM": 6840000000.0,
+      "marketCap": 44482060288.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "GOOGL": {
+      "pe": 29.681677,
+      "revenueTTM": 422498009088.0,
+      "marketCap": 4710847741952.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "HON": {
+      "pe": 37.048,
+      "revenueTTM": 37660000256.0,
+      "marketCap": 146722390016.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "HUBB": {
+      "pe": 28.653847,
+      "revenueTTM": 5996100096.0,
+      "marketCap": 25588629504.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "IBM": {
+      "pe": 22.564102,
+      "revenueTTM": 68910997504.0,
+      "marketCap": 239858728960.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "INTC": {
+      "pe": 79.0858,
+      "revenueTTM": 53762998272.0,
+      "marketCap": 612015996928.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "IRM": {
+      "pe": 139.57143,
+      "revenueTTM": 7245357056.0,
+      "marketCap": 37788610560.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "JBL": {
+      "pe": 49.983852,
+      "revenueTTM": 32667000832.0,
+      "marketCap": 39181565952.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "JCET": {
+      "pe": null,
+      "revenueTTM": null,
+      "marketCap": null,
+      "currency": null,
+      "source": "yfinance"
+    },
+    "JCI": {
+      "pe": 42.134148,
+      "revenueTTM": 24433000448.0,
+      "marketCap": 84317970432.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "JNPR": {
+      "pe": null,
+      "revenueTTM": null,
+      "marketCap": null,
+      "currency": null,
+      "source": "yfinance"
+    },
+    "KLAC": {
+      "pe": 55.55464,
+      "revenueTTM": 13096660992.0,
+      "marketCap": 255662866432.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "LII": {
+      "pe": 22.37261,
+      "revenueTTM": 5257800192.0,
+      "marketCap": 17509951488.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "LITE": {
+      "pe": 158.85739,
+      "revenueTTM": 2488399872.0,
+      "marketCap": 70199713792.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "LRCX": {
+      "pe": 60.289223,
+      "revenueTTM": 21681844224.0,
+      "marketCap": 398844592128.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MDB": {
+      "pe": 41.575184,
+      "revenueTTM": 2463796992.0,
+      "marketCap": 23704010752.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "META": {
+      "pe": 23.091785,
+      "revenueTTM": 214962995200.0,
+      "marketCap": 1612546048000.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MOD": {
+      "pe": 123.31718,
+      "revenueTTM": 3181100032.0,
+      "marketCap": 14761042944.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MP": {
+      "pe": 56.352028,
+      "revenueTTM": 347568992.0,
+      "marketCap": 11608826880.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MRVL": {
+      "pe": 64.512985,
+      "revenueTTM": 8194599936.0,
+      "marketCap": 173972406272.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MSFT": {
+      "pe": 24.563692,
+      "revenueTTM": 318272995328.0,
+      "marketCap": 3065492275200.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "MU": {
+      "pe": 43.85498,
+      "revenueTTM": 58119000064.0,
+      "marketCap": 1046999531520.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "NEE": {
+      "pe": 22.246193,
+      "revenueTTM": 27865999360.0,
+      "marketCap": 182803316736.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "NOW": {
+      "pe": 60.785717,
+      "revenueTTM": 13959999488.0,
+      "marketCap": 105317179392.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "NTAP": {
+      "pe": 23.90955,
+      "revenueTTM": 6709000192.0,
+      "marketCap": 28271134720.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "NVDA": {
+      "pe": 32.557426,
+      "revenueTTM": 253491003392.0,
+      "marketCap": 5149384769536.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "NVT": {
+      "pe": 57.07483,
+      "revenueTTM": 4325799936.0,
+      "marketCap": 27136692224.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ONTO": {
+      "pe": 123.56019,
+      "revenueTTM": 1030604992.0,
+      "marketCap": 13276061696.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ORCL": {
+      "pe": 34.222225,
+      "revenueTTM": 64076001280.0,
+      "marketCap": 549209767936.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "PINS": {
+      "pe": 41.729168,
+      "revenueTTM": 4374292992.0,
+      "marketCap": 11219951616.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "PLTR": {
+      "pe": 148.88763,
+      "revenueTTM": 5224174080.0,
+      "marketCap": 317667803136.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "POWL": {
+      "pe": 57.80078,
+      "revenueTTM": 1132055040.0,
+      "marketCap": 10781582336.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "PSTG": {
+      "pe": 123.27273,
+      "revenueTTM": 3662842880.0,
+      "marketCap": 22405251072.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "QCOM": {
+      "pe": 25.123789,
+      "revenueTTM": 44486000640.0,
+      "marketCap": 246003597312.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "RIO": {
+      "pe": 17.505747,
+      "revenueTTM": 57637998592.0,
+      "marketCap": 173374668800.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "ROK": {
+      "pe": 47.40956,
+      "revenueTTM": 8803999744.0,
+      "marketCap": 50749820928.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SAP": {
+      "pe": 23.986225,
+      "revenueTTM": 37341999104.0,
+      "marketCap": 205299286016.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SCCO": {
+      "pe": 31.76819,
+      "revenueTTM": 14549499904.0,
+      "marketCap": 156644655104.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SIE": {
+      "pe": null,
+      "revenueTTM": null,
+      "marketCap": null,
+      "currency": null,
+      "source": "yfinance"
+    },
+    "SIEGY": {
+      "pe": 28.428827,
+      "revenueTTM": 79699001344.0,
+      "marketCap": 245769158656.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SNAP": {
+      "pe": 7.9949965,
+      "revenueTTM": 6097020928.0,
+      "marketCap": 9744106496.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SNDK": {
+      "pe": 54.356922,
+      "revenueTTM": 13184000000.0,
+      "marketCap": 235453825024.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SNOW": {
+      "pe": 72.32197,
+      "revenueTTM": 4683945984.0,
+      "marketCap": 60745625600.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SO": {
+      "pe": 23.974424,
+      "revenueTTM": 30175000576.0,
+      "marketCap": 105673203712.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SQM": {
+      "pe": 29.349651,
+      "revenueTTM": 5299623936.0,
+      "marketCap": 23976439808.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SSNLF": {
+      "pe": 19.523952,
+      "revenueTTM": 388338863308800.0,
+      "marketCap": 428205604864.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "STX": {
+      "pe": 82.68376,
+      "revenueTTM": 11009999872.0,
+      "marketCap": 195227205632.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "SU.PA": {
+      "pe": 33.53567,
+      "revenueTTM": 40151998464.0,
+      "marketCap": 150761881600.0,
+      "currency": "EUR",
+      "source": "yfinance"
+    },
+    "TCEHY": {
+      "pe": 15.60955,
+      "revenueTTM": 768201981952.0,
+      "marketCap": 501748695040.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "TECK": {
+      "pe": 23.897434,
+      "revenueTTM": 12408999936.0,
+      "marketCap": 31960702976.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "TER": {
+      "pe": 69.98696,
+      "revenueTTM": 3786838016.0,
+      "marketCap": 58833235968.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "TSM": {
+      "pe": 36.099915,
+      "revenueTTM": 4103904165888.0,
+      "marketCap": 2192478175232.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "TT": {
+      "pe": 34.964092,
+      "revenueTTM": 21602799616.0,
+      "marketCap": 101172666368.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "TTD": {
+      "pe": 25.329546,
+      "revenueTTM": 2969120000.0,
+      "marketCap": 10478715904.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "UMC": {
+      "pe": 35.26984,
+      "revenueTTM": 240732143616.0,
+      "marketCap": 55756349440.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "VRT": {
+      "pe": 80.54912,
+      "revenueTTM": 10843400192.0,
+      "marketCap": 122830315520.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "VST": {
+      "pe": 26.825796,
+      "revenueTTM": 19445000192.0,
+      "marketCap": 53999767552.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "WDAY": {
+      "pe": 38.785046,
+      "revenueTTM": 9854000128.0,
+      "marketCap": 30748196864.0,
+      "currency": "USD",
+      "source": "yfinance"
+    },
+    "WDC": {
+      "pe": 31.75344,
+      "revenueTTM": 11777000448.0,
+      "marketCap": 182888333312.0,
+      "currency": "USD",
+      "source": "yfinance"
+    }
+  }
+}

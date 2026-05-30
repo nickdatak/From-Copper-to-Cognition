@@ -1,0 +1,169 @@
+{
+  "asOf": "2026-05-28T18:31:10Z",
+  "methodologyVersion": 1,
+  "source": "yfinance+graph",
+  "methodologyDoc": "docs/score-methodology.md",
+  "byNodeId": {
+    "aa": {
+      "pricingPowerScore": 33.333333333333336,
+      "capitalIntensityScore": 50.0,
+      "substitutabilityScore": 54.166666666666664,
+      "valueCaptureScore": 33.333333333333336,
+      "importanceScore": 43.75,
+      "centralityScore": 11.25
+    },
+    "alb": {
+      "pricingPowerScore": 33.333333333333336,
+      "capitalIntensityScore": 81.25,
+      "substitutabilityScore": 58.333333333333336,
+      "valueCaptureScore": 37.5,
+      "importanceScore": 31.25,
+      "centralityScore": 11.25
+    },
+    "aes": {
+      "pricingPowerScore": 37.5,
+      "capitalIntensityScore": 93.75,
+      "substitutabilityScore": 45.833333333333336,
+      "valueCaptureScore": 45.833333333333336,
+      "importanceScore": 25.0,
+      "centralityScore": 28.75
+    },
+    "abb": {
+      "centralityScore": 67.5
+    },
+    "amat": {
+      "pricingPowerScore": 70.83333333333333,
+      "capitalIntensityScore": 37.5,
+      "substitutabilityScore": 37.5,
+      "valueCaptureScore": 75.0,
+      "importanceScore": 75.0,
+      "centralityScore": 18.75
+    },
+    "amkr": {
+      "pricingPowerScore": 20.833333333333332,
+      "capitalIntensityScore": 75.0,
+      "substitutabilityScore": 83.33333333333333,
+      "valueCaptureScore": 29.166666666666668,
+      "importanceScore": 25.0,
+      "centralityScore": 48.125
+    },
+    "000660_ks": {
+      "pricingPowerScore": 87.5,
+      "capitalIntensityScore": 68.75,
+      "substitutabilityScore": 33.333333333333336,
+      "valueCaptureScore": 87.5,
+      "importanceScore": 87.5,
+      "centralityScore": 61.875
+    },
+    "amd": {
+      "pricingPowerScore": 50.0,
+      "capitalIntensityScore": 12.5,
+      "substitutabilityScore": 58.333333333333336,
+      "valueCaptureScore": 41.666666666666664,
+      "importanceScore": 100.0,
+      "centralityScore": 95.625
+    },
+    "adbe": {
+      "pricingPowerScore": 100.0,
+      "capitalIntensityScore": 6.25,
+      "substitutabilityScore": 8.333333333333334,
+      "valueCaptureScore": 100.0,
+      "importanceScore": 62.5,
+      "centralityScore": 34.375
+    },
+    "ai": {
+      "pricingPowerScore": 16.666666666666668,
+      "capitalIntensityScore": 25.0,
+      "substitutabilityScore": 70.83333333333333,
+      "valueCaptureScore": 0.0,
+      "importanceScore": 0.0,
+      "centralityScore": 34.375
+    },
+    "raw_materials": {
+      "pricingPowerScore": 33.333333333333336,
+      "capitalIntensityScore": 65.98290595986283,
+      "substitutabilityScore": 56.29772079464837,
+      "valueCaptureScore": 35.46438746131505,
+      "importanceScore": 37.35683761605487,
+      "centralityScore": 11.25
+    },
+    "utilities_power": {
+      "pricingPowerScore": 37.5,
+      "capitalIntensityScore": 93.75,
+      "substitutabilityScore": 45.833333333333336,
+      "valueCaptureScore": 45.833333333333336,
+      "importanceScore": 25.0,
+      "centralityScore": 28.75
+    },
+    "power_electrical": {
+      "centralityScore": 67.5
+    },
+    "cooling_thermal": {
+      "centralityScore": 54.375
+    },
+    "data_center_infra": {
+      "centralityScore": 63.125
+    },
+    "semi_fabrication": {
+      "centralityScore": 68.125
+    },
+    "semi_equipment": {
+      "pricingPowerScore": 70.83333333333333,
+      "capitalIntensityScore": 37.5,
+      "substitutabilityScore": 37.5,
+      "valueCaptureScore": 75.0,
+      "importanceScore": 75.0,
+      "centralityScore": 18.75
+    },
+    "packaging_osat": {
+      "pricingPowerScore": 20.833333333333332,
+      "capitalIntensityScore": 75.0,
+      "substitutabilityScore": 83.33333333333333,
+      "valueCaptureScore": 29.166666666666668,
+      "importanceScore": 25.0,
+      "centralityScore": 48.125
+    },
+    "memory_storage": {
+      "pricingPowerScore": 87.5,
+      "capitalIntensityScore": 68.75,
+      "substitutabilityScore": 33.333333333333336,
+      "valueCaptureScore": 87.5,
+      "importanceScore": 87.5,
+      "centralityScore": 61.875
+    },
+    "ai_accel_compute": {
+      "pricingPowerScore": 50.0,
+      "capitalIntensityScore": 12.5,
+      "substitutabilityScore": 58.333333333333336,
+      "valueCaptureScore": 41.666666666666664,
+      "importanceScore": 100.0,
+      "centralityScore": 95.625
+    },
+    "networking_optical": {
+      "centralityScore": 45.625
+    },
+    "contract_manufacturing": {
+      "centralityScore": 31.25
+    },
+    "hyperscaler_cloud": {
+      "centralityScore": 98.125
+    },
+    "ai_model_labs": {
+      "centralityScore": 66.25
+    },
+    "enterprise_software": {
+      "pricingPowerScore": 98.75316029384753,
+      "capitalIntensityScore": 6.530538933884305,
+      "substitutabilityScore": 9.268463112947684,
+      "valueCaptureScore": 98.50379235261704,
+      "importanceScore": 61.56487022038565,
+      "centralityScore": 34.375
+    },
+    "digital_advertising": {
+      "centralityScore": 36.875
+    },
+    "industrial_automation": {
+      "centralityScore": 20.0
+    }
+  }
+}

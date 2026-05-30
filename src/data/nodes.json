@@ -1,0 +1,4411 @@
+[
+  {
+    "id": "raw_materials",
+    "label": "Raw Materials & Mining",
+    "shortLabel": "Raw Mat",
+    "nodeType": "cluster",
+    "clusterId": "raw_materials",
+    "isCluster": true,
+    "description": "Upstream producers of copper, aluminum, lithium, rare earths, and other industrial metals and materials feeding power equipment, semiconductors, and infrastructure.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 27.563610666666666,
+      "avgRevenueTTM": 20978030403.555557,
+      "totalRevenueTTM": 188802273632,
+      "sampleSize": 9,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Raw Materials & Mining"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 0
+    },
+    "importanceScore": 37.35683761605487,
+    "pricingPowerScore": 33.333333333333336,
+    "substitutabilityScore": 56.29772079464837,
+    "capitalIntensityScore": 65.98290595986283,
+    "valueCaptureScore": 35.46438746131505,
+    "centralityScore": 11.25
+  },
+  {
+    "id": "utilities_power",
+    "label": "Utilities & Grid",
+    "shortLabel": "Grid",
+    "nodeType": "cluster",
+    "clusterId": "utilities_power",
+    "isCluster": true,
+    "description": "Regulated utilities and IPPs providing generation and transmission capacity; includes grid operators whose interconnect queues and grid upgrades gate AI DC buildout.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 26.532244187500005,
+      "avgRevenueTTM": 19922231056,
+      "totalRevenueTTM": 159377848448,
+      "sampleSize": 8,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Utilities & Grid"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 1
+    },
+    "importanceScore": 25,
+    "pricingPowerScore": 37.5,
+    "substitutabilityScore": 45.833333333333336,
+    "capitalIntensityScore": 93.75,
+    "valueCaptureScore": 45.833333333333336,
+    "centralityScore": 28.75
+  },
+  {
+    "id": "power_electrical",
+    "label": "Power & Electrical Equipment",
+    "shortLabel": "Power Eq",
+    "nodeType": "cluster",
+    "clusterId": "power_electrical",
+    "isCluster": true,
+    "description": "Transformers, switchgear, breakers, MV/LV gear, UPS, busways; the middle mile of power from substation to rack. Structural bottleneck due to long lead times.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 40.9719375,
+      "avgRevenueTTM": 16277825706.666666,
+      "totalRevenueTTM": 97666954240,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Power & Electrical Equipment"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 2
+    },
+    "centralityScore": 67.5
+  },
+  {
+    "id": "cooling_thermal",
+    "label": "Cooling & Thermal",
+    "shortLabel": "Cooling",
+    "nodeType": "cluster",
+    "clusterId": "cooling_thermal",
+    "isCluster": true,
+    "description": "Liquid cooling, chillers, heat exchangers, air handling, and thermal management systems needed for high-density AI racks.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 60.66743,
+      "avgRevenueTTM": 13063620096,
+      "totalRevenueTTM": 65318100480,
+      "sampleSize": 5,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Cooling & Thermal"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 3
+    },
+    "centralityScore": 54.375
+  },
+  {
+    "id": "data_center_infra",
+    "label": "Data Center Infrastructure",
+    "shortLabel": "DC Infra",
+    "nodeType": "cluster",
+    "clusterId": "data_center_infra",
+    "isCluster": true,
+    "description": "Colocation REITs and dedicated DC operators providing buildings, campuses, and basic MEP infrastructure for hyperscalers.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 73.5468795,
+      "avgRevenueTTM": 8476176256,
+      "totalRevenueTTM": 33904705024,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Data Center Infrastructure"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 4
+    },
+    "centralityScore": 63.125
+  },
+  {
+    "id": "semi_fabrication",
+    "label": "Semiconductor Fabrication",
+    "shortLabel": "Fabs",
+    "nodeType": "cluster",
+    "clusterId": "semi_fabrication",
+    "isCluster": true,
+    "description": "Foundries and IDMs that manufacture logic and memory wafers (advanced and trailing-edge) for AI servers.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 44.198416800000004,
+      "avgRevenueTTM": 78548820523315.2,
+      "totalRevenueTTM": 392744102616576,
+      "sampleSize": 5,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Semiconductor Fabrication"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 5
+    },
+    "centralityScore": 68.125
+  },
+  {
+    "id": "semi_equipment",
+    "label": "Semi Equipment & Lithography",
+    "shortLabel": "Semi Eq",
+    "nodeType": "cluster",
+    "clusterId": "semi_equipment",
+    "isCluster": true,
+    "description": "Tool makers (EUV, deposition, etch, metrology, test) required to expand wafer capacity; often the upstream constraint on fab output.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 67.46508716666666,
+      "avgRevenueTTM": 17052108149.333334,
+      "totalRevenueTTM": 102312648896,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Semi Equipment & Lithography"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 6
+    },
+    "importanceScore": 75,
+    "pricingPowerScore": 70.83333333333333,
+    "substitutabilityScore": 37.5,
+    "capitalIntensityScore": 37.5,
+    "valueCaptureScore": 75,
+    "centralityScore": 18.75
+  },
+  {
+    "id": "packaging_osat",
+    "label": "Advanced Packaging & OSAT",
+    "shortLabel": "Packaging",
+    "nodeType": "cluster",
+    "clusterId": "packaging_osat",
+    "isCluster": true,
+    "description": "OSATs and in-house advanced packaging (CoWoS, InFO, HBM stacking, 2.5D/3D) that assemble dies into usable packages for GPUs, memory, and key ICs.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 92.15405633333334,
+      "avgRevenueTTM": 226155606528,
+      "totalRevenueTTM": 678466819584,
+      "sampleSize": 3,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Advanced Packaging & OSAT"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 7
+    },
+    "importanceScore": 25,
+    "pricingPowerScore": 20.833333333333332,
+    "substitutabilityScore": 83.33333333333333,
+    "capitalIntensityScore": 75,
+    "valueCaptureScore": 29.166666666666668,
+    "centralityScore": 48.125
+  },
+  {
+    "id": "memory_storage",
+    "label": "Memory & Storage",
+    "shortLabel": "Memory",
+    "nodeType": "cluster",
+    "clusterId": "memory_storage",
+    "isCluster": true,
+    "description": "DRAM, HBM, NAND, SSD/HDD vendors and storage systems used in AI servers and data centers. HBM is increasingly a binding constraint on GPU shipments.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 52.25984042857143,
+      "avgRevenueTTM": 23875060285293.715,
+      "totalRevenueTTM": 167125421997056,
+      "sampleSize": 7,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Memory & Storage"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 8
+    },
+    "importanceScore": 87.5,
+    "pricingPowerScore": 87.5,
+    "substitutabilityScore": 33.333333333333336,
+    "capitalIntensityScore": 68.75,
+    "valueCaptureScore": 87.5,
+    "centralityScore": 61.875
+  },
+  {
+    "id": "ai_accel_compute",
+    "label": "AI Accelerators & Compute",
+    "shortLabel": "AI Compute",
+    "nodeType": "cluster",
+    "clusterId": "ai_accel_compute",
+    "isCluster": true,
+    "description": "GPUs and AI accelerators plus closely linked custom AI ASICs (training/inference), including key accelerator IP vendors.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 120.72070833333333,
+      "avgRevenueTTM": 69471267242.66667,
+      "totalRevenueTTM": 416827603456,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: AI Accelerators & Compute"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 9
+    },
+    "importanceScore": 100,
+    "pricingPowerScore": 50,
+    "substitutabilityScore": 58.333333333333336,
+    "capitalIntensityScore": 12.5,
+    "valueCaptureScore": 41.666666666666664,
+    "centralityScore": 95.625
+  },
+  {
+    "id": "networking_optical",
+    "label": "Networking & Optical",
+    "shortLabel": "Networking",
+    "nodeType": "cluster",
+    "clusterId": "networking_optical",
+    "isCluster": true,
+    "description": "Data-center networking: switches, NICs, copper/optical interconnect, transceivers used in AI clusters and DCI.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 140.75800666666666,
+      "avgRevenueTTM": 18429078528,
+      "totalRevenueTTM": 110574471168,
+      "sampleSize": 6,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Networking & Optical"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 10
+    },
+    "centralityScore": 45.625
+  },
+  {
+    "id": "contract_manufacturing",
+    "label": "Contract Manufacturing (EMS)",
+    "shortLabel": "EMS",
+    "nodeType": "cluster",
+    "clusterId": "contract_manufacturing",
+    "isCluster": true,
+    "description": "EMS/ODM/CMs assembling servers, racks, and sometimes full systems (including white box for hyperscalers).",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 51.95325066666666,
+      "avgRevenueTTM": 24790100309.333332,
+      "totalRevenueTTM": 74370300928,
+      "sampleSize": 3,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Contract Manufacturing (EMS)"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 11
+    },
+    "centralityScore": 31.25
+  },
+  {
+    "id": "hyperscaler_cloud",
+    "label": "Hyperscaler & Cloud Platforms",
+    "shortLabel": "Hyperscaler",
+    "nodeType": "cluster",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": true,
+    "description": "Hyperscale cloud providers and large internet platforms building and operating AI data centers and exposing compute, storage, and platform services.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 25.137043124999998,
+      "avgRevenueTTM": 452921123328,
+      "totalRevenueTTM": 3623368986624,
+      "sampleSize": 8,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Hyperscaler & Cloud Platforms"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 12
+    },
+    "centralityScore": 98.125
+  },
+  {
+    "id": "ai_model_labs",
+    "label": "AI Model Labs",
+    "shortLabel": "Model Labs",
+    "nodeType": "cluster",
+    "clusterId": "ai_model_labs",
+    "isCluster": true,
+    "description": "Frontier and leading model/API providers training large models and selling access via APIs and platforms, independent (or semi-independent) of hyperscalers.",
+    "roles": [],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: AI Model Labs"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 13
+    },
+    "centralityScore": 66.25
+  },
+  {
+    "id": "enterprise_software",
+    "label": "Enterprise Software & SaaS",
+    "shortLabel": "Enterprise",
+    "nodeType": "cluster",
+    "clusterId": "enterprise_software",
+    "isCluster": true,
+    "description": "Horizontal and vertical SaaS platforms embedding AI into workflows (CRM, ERP, analytics, observability, etc.).",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 96.39085170000001,
+      "avgRevenueTTM": 14348533507.2,
+      "totalRevenueTTM": 143485335072,
+      "sampleSize": 10,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Enterprise Software & SaaS"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 14
+    },
+    "importanceScore": 61.56487022038565,
+    "pricingPowerScore": 98.75316029384753,
+    "substitutabilityScore": 9.268463112947684,
+    "capitalIntensityScore": 6.530538933884305,
+    "valueCaptureScore": 98.50379235261704,
+    "centralityScore": 34.375
+  },
+  {
+    "id": "digital_advertising",
+    "label": "Digital Advertising & Media",
+    "shortLabel": "Ads",
+    "nodeType": "cluster",
+    "clusterId": "digital_advertising",
+    "isCluster": true,
+    "description": "Online ad platforms and related measurement/optimization players monetizing engagement and attention, increasingly with AI-driven targeting and creative.",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 31.075440125,
+      "avgRevenueTTM": 4901156544,
+      "totalRevenueTTM": 19604626176,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Digital Advertising & Media"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 15
+    },
+    "centralityScore": 36.875
+  },
+  {
+    "id": "industrial_automation",
+    "label": "Industrial & Automation",
+    "shortLabel": "Industrial",
+    "nodeType": "cluster",
+    "clusterId": "industrial_automation",
+    "isCluster": true,
+    "description": "Industrial automation / building automation vendors, plus DC-adjacent automation (facility controls, smart manufacturing, industrial AI).",
+    "roles": [],
+    "fundamentals": {
+      "avgPe": 36.60551425,
+      "avgRevenueTTM": 41578749952,
+      "totalRevenueTTM": 166314999808,
+      "sampleSize": 4,
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Industry cluster: Industrial & Automation"
+    ],
+    "tags": [
+      "cluster"
+    ],
+    "relatedMetrics": {
+      "valueChainOrder": 16
+    },
+    "centralityScore": 20
+  },
+  {
+    "id": "fcx",
+    "label": "Freeport-McMoRan",
+    "shortLabel": "FCX",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "FCX",
+    "description": "Copper mining; AI power and interconnect demand driver.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 33.666668,
+      "revenueTTM": 26421000192,
+      "marketCap": 91471929344,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 49.88386665473634,
+    "pricingPowerScore": 44.67635870578148,
+    "substitutabilityScore": 41.86679047508514,
+    "capitalIntensityScore": 54.72898716255229,
+    "valueCaptureScore": 38.87603860548445,
+    "centralityScore": 47.435204177042216
+  },
+  {
+    "id": "scco",
+    "label": "Southern Copper",
+    "shortLabel": "SCCO",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "SCCO",
+    "description": "Major copper producer exposed to electrification.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 31.76819,
+      "revenueTTM": 14549499904,
+      "marketCap": 156644655104,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 60.27796557926656,
+    "pricingPowerScore": 47.69167163380578,
+    "substitutabilityScore": 47.12614227417919,
+    "capitalIntensityScore": 44.148766374618056,
+    "valueCaptureScore": 39.49189428589131,
+    "centralityScore": 49.967636987446994
+  },
+  {
+    "id": "teck",
+    "label": "Teck Resources",
+    "shortLabel": "TECK",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "TECK",
+    "description": "Diversified miner with copper growth projects.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 23.897434,
+      "revenueTTM": 12408999936,
+      "marketCap": 31960702976,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 53.102657752564085,
+    "pricingPowerScore": 39.6204578240064,
+    "substitutabilityScore": 44.877504720159216,
+    "capitalIntensityScore": 47.63295536032783,
+    "valueCaptureScore": 40.94366923709106,
+    "centralityScore": 56.340501662353894
+  },
+  {
+    "id": "rio",
+    "label": "Rio Tinto",
+    "shortLabel": "RIO",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "RIO",
+    "description": "Global miner; copper and aluminum for infrastructure.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 17.505747,
+      "revenueTTM": 57637998592,
+      "marketCap": 173374668800,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 55.2606332436752,
+    "pricingPowerScore": 36.17977463940776,
+    "substitutabilityScore": 46.86135121366563,
+    "capitalIntensityScore": 48.46626812330955,
+    "valueCaptureScore": 33.42677546415322,
+    "centralityScore": 54.91972969213815
+  },
+  {
+    "id": "bhp",
+    "label": "BHP Group",
+    "shortLabel": "BHP",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "BHP",
+    "description": "Diversified; copper and energy transition metals.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 21.848259,
+      "revenueTTM": 53987999744,
+      "marketCap": 223118508032,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 53.70010672051879,
+    "pricingPowerScore": 45.893859494738685,
+    "substitutabilityScore": 42.91056295833115,
+    "capitalIntensityScore": 45.40082036811961,
+    "valueCaptureScore": 41.89900355475952,
+    "centralityScore": 48.22677210174386
+  },
+  {
+    "id": "mp",
+    "label": "MP Materials",
+    "shortLabel": "MP",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "MP",
+    "description": "Rare earth materials for motors and generators.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 56.352028,
+      "revenueTTM": 347568992,
+      "marketCap": 11608826880,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 59.37318873423456,
+    "pricingPowerScore": 38.82797768428711,
+    "substitutabilityScore": 42.31615604874251,
+    "capitalIntensityScore": 48.04710484797813,
+    "valueCaptureScore": 33.954590942410334,
+    "centralityScore": 46.36714037052261
+  },
+  {
+    "id": "aa",
+    "label": "Alcoa",
+    "shortLabel": "AA",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "AA",
+    "description": "Aluminum supply for enclosures and busways.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 18.75641,
+      "revenueTTM": 12654999552,
+      "marketCap": 19303544832,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 43.75,
+    "pricingPowerScore": 33.333333333333336,
+    "substitutabilityScore": 54.166666666666664,
+    "capitalIntensityScore": 50,
+    "valueCaptureScore": 33.333333333333336,
+    "centralityScore": 11.25
+  },
+  {
+    "id": "sqm",
+    "label": "SQM",
+    "shortLabel": "SQM",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "SQM",
+    "description": "Lithium supply for UPS and grid storage.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 29.349651,
+      "revenueTTM": 5299623936,
+      "marketCap": 23976439808,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 50.731094534659306,
+    "pricingPowerScore": 42.739482084372455,
+    "substitutabilityScore": 39.32390698011528,
+    "capitalIntensityScore": 48.272937975702774,
+    "valueCaptureScore": 42.82738909866053,
+    "centralityScore": 53.0883073507495
+  },
+  {
+    "id": "alb",
+    "label": "Albemarle",
+    "shortLabel": "ALB",
+    "nodeType": "company",
+    "clusterId": "raw_materials",
+    "isCluster": false,
+    "ticker": "ALB",
+    "description": "Lithium and bromine specialties.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 14.928109,
+      "revenueTTM": 5494582784,
+      "marketCap": 20929861632,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Raw Materials & Mining cluster."
+    ],
+    "tags": [
+      "raw_materials"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 31.25,
+    "pricingPowerScore": 33.333333333333336,
+    "substitutabilityScore": 58.333333333333336,
+    "capitalIntensityScore": 81.25,
+    "valueCaptureScore": 37.5,
+    "centralityScore": 11.25
+  },
+  {
+    "id": "nee",
+    "label": "NextEra Energy",
+    "shortLabel": "NEE",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "NEE",
+    "description": "Renewables and regulated utility; power for campuses.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 22.246193,
+      "revenueTTM": 27865999360,
+      "marketCap": 182803316736,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.62631409296736,
+    "pricingPowerScore": 51.975975342061346,
+    "substitutabilityScore": 35.82732277799697,
+    "capitalIntensityScore": 83.34570461439355,
+    "valueCaptureScore": 43.728031707191995,
+    "centralityScore": 71.49850478641757
+  },
+  {
+    "id": "duk",
+    "label": "Duke Energy",
+    "shortLabel": "DUK",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "DUK",
+    "description": "Southeast utility with data center load growth.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 19.254992,
+      "revenueTTM": 32718999552,
+      "marketCap": 97722384384,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 66.43791882189025,
+    "pricingPowerScore": 60.30284671347977,
+    "substitutabilityScore": 32.41545183120581,
+    "capitalIntensityScore": 80.43374153415756,
+    "valueCaptureScore": 47.377178238757814,
+    "centralityScore": 66.15947215459781
+  },
+  {
+    "id": "so",
+    "label": "Southern Company",
+    "shortLabel": "SO",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "SO",
+    "description": "Regulated utility in high-growth power markets.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 23.974424,
+      "revenueTTM": 30175000576,
+      "marketCap": 105673203712,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 76.76007034830903,
+    "pricingPowerScore": 50.40608525937368,
+    "substitutabilityScore": 31.825484753611263,
+    "capitalIntensityScore": 75.1307153300304,
+    "valueCaptureScore": 45.67986519630665,
+    "centralityScore": 75.61610411800437
+  },
+  {
+    "id": "enph",
+    "label": "Enphase Energy",
+    "shortLabel": "ENPH",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "ENPH",
+    "description": "Distributed solar and storage inverters.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 69.58416,
+      "revenueTTM": 1399800960,
+      "marketCap": 9262779392,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 69.19447279226821,
+    "pricingPowerScore": 59.58671028822606,
+    "substitutabilityScore": 32.66486353714036,
+    "capitalIntensityScore": 75.32998883170455,
+    "valueCaptureScore": 44.564569032008535,
+    "centralityScore": 75.286017587353
+  },
+  {
+    "id": "fslr",
+    "label": "First Solar",
+    "shortLabel": "FSLR",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "FSLR",
+    "description": "Utility-scale solar module manufacturer.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 17.667528,
+      "revenueTTM": 5419047936,
+      "marketCap": 29406763008,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 68.18858874252996,
+    "pricingPowerScore": 55.21704970278532,
+    "substitutabilityScore": 40.95640126873096,
+    "capitalIntensityScore": 82.57825125293012,
+    "valueCaptureScore": 44.891899696144925,
+    "centralityScore": 66.13866589315842
+  },
+  {
+    "id": "ceg",
+    "label": "Constellation Energy",
+    "shortLabel": "CEG",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "CEG",
+    "description": "Nuclear and clean power for 24/7 load.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 25.059027,
+      "revenueTTM": 29866999808,
+      "marketCap": 104268341248,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 66.51566825581833,
+    "pricingPowerScore": 54.559506137525624,
+    "substitutabilityScore": 34.959353511403556,
+    "capitalIntensityScore": 72.17111923068335,
+    "valueCaptureScore": 50.51288768141741,
+    "centralityScore": 72.0440664826126
+  },
+  {
+    "id": "vst",
+    "label": "Vistra",
+    "shortLabel": "VST",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "VST",
+    "description": "Power generation and retail in ERCOT/PJM.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 26.825796,
+      "revenueTTM": 19445000192,
+      "marketCap": 53999767552,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 77.33112571238848,
+    "pricingPowerScore": 50.50669645875414,
+    "substitutabilityScore": 35.79384426896359,
+    "capitalIntensityScore": 74.84282856933277,
+    "valueCaptureScore": 51.53514737009449,
+    "centralityScore": 64.15344177095021
+  },
+  {
+    "id": "aes",
+    "label": "AES Corporation",
+    "shortLabel": "AES",
+    "nodeType": "company",
+    "clusterId": "utilities_power",
+    "isCluster": false,
+    "ticker": "AES",
+    "description": "Global power platform and renewables.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 7.6458335,
+      "revenueTTM": 12487000064,
+      "marketCap": 10469154816,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Utilities & Grid cluster."
+    ],
+    "tags": [
+      "utilities_power"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 25,
+    "pricingPowerScore": 37.5,
+    "substitutabilityScore": 45.833333333333336,
+    "capitalIntensityScore": 93.75,
+    "valueCaptureScore": 45.833333333333336,
+    "centralityScore": 28.75
+  },
+  {
+    "id": "etn",
+    "label": "Eaton",
+    "shortLabel": "ETN",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "ETN",
+    "description": "Power distribution, UPS, and electrical gear.",
+    "roles": [
+      "power_electrical",
+      "industrial_automation"
+    ],
+    "fundamentals": {
+      "pe": 39.840195,
+      "revenueTTM": 28522000384,
+      "marketCap": 157793468416,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 80.44613820981776,
+    "pricingPowerScore": 73.87481055101001,
+    "substitutabilityScore": 42.13243109737391,
+    "capitalIntensityScore": 66.43422766714689,
+    "valueCaptureScore": 64.38213741139232,
+    "centralityScore": 69.12670805480738
+  },
+  {
+    "id": "gev",
+    "label": "GE Vernova",
+    "shortLabel": "GEV",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "GEV",
+    "description": "Gas turbines, grid equipment, transformers.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 30.119383,
+      "revenueTTM": 39374999552,
+      "marketCap": 277289500672,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 76.40858749583937,
+    "pricingPowerScore": 73.74873324877984,
+    "substitutabilityScore": 35.98182414598752,
+    "capitalIntensityScore": 68.40595002643744,
+    "valueCaptureScore": 64.18739804501526,
+    "centralityScore": 69.76453557800635
+  },
+  {
+    "id": "hubb",
+    "label": "Hubbell",
+    "shortLabel": "HUBB",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "HUBB",
+    "description": "Electrical components and grid solutions.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 28.653847,
+      "revenueTTM": 5996100096,
+      "marketCap": 25588629504,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 72.46119781222157,
+    "pricingPowerScore": 65.42872551721506,
+    "substitutabilityScore": 42.19564542809613,
+    "capitalIntensityScore": 65.06207827134486,
+    "valueCaptureScore": 64.95761262357453,
+    "centralityScore": 71.88579191010817
+  },
+  {
+    "id": "abb",
+    "label": "ABB Ltd",
+    "shortLabel": "ABB",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "ABB",
+    "description": "Electrification and automation for data centers.",
+    "roles": [
+      "power_electrical",
+      "industrial_automation"
+    ],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "centralityScore": 67.5
+  },
+  {
+    "id": "sie",
+    "label": "Siemens",
+    "shortLabel": "SIE",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "SIE",
+    "description": "Grid, building tech, and industrial electrification.",
+    "roles": [
+      "power_electrical",
+      "industrial_automation"
+    ],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 80.81521095198816,
+    "pricingPowerScore": 72.92615294425302,
+    "substitutabilityScore": 39.34284339718716,
+    "capitalIntensityScore": 65.71437166808529,
+    "valueCaptureScore": 57.84325986693018,
+    "centralityScore": 68.91655666050029
+  },
+  {
+    "id": "nvt",
+    "label": "nVent Electric",
+    "shortLabel": "NVT",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "NVT",
+    "description": "Enclosures, busbars, and cooling interfaces.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 57.07483,
+      "revenueTTM": 4325799936,
+      "marketCap": 27136692224,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 83.20647384463754,
+    "pricingPowerScore": 69.2850073570133,
+    "substitutabilityScore": 45.867815638520455,
+    "capitalIntensityScore": 69.02639705885437,
+    "valueCaptureScore": 65.59006736630852,
+    "centralityScore": 75.44854462916457
+  },
+  {
+    "id": "powl",
+    "label": "Powell Industries",
+    "shortLabel": "POWL",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "POWL",
+    "description": "Custom electrical equipment and switchgear.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 57.80078,
+      "revenueTTM": 1132055040,
+      "marketCap": 10781582336,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 80.52115748644864,
+    "pricingPowerScore": 73.6449554476705,
+    "substitutabilityScore": 43.09653735088814,
+    "capitalIntensityScore": 66.63681221039704,
+    "valueCaptureScore": 57.45208896388257,
+    "centralityScore": 73.27441888513702
+  },
+  {
+    "id": "emr",
+    "label": "Emerson Electric",
+    "shortLabel": "EMR",
+    "nodeType": "company",
+    "clusterId": "power_electrical",
+    "isCluster": false,
+    "ticker": "EMR",
+    "description": "Power and thermal management systems.",
+    "roles": [
+      "power_electrical",
+      "industrial_automation"
+    ],
+    "fundamentals": {
+      "pe": 32.34259,
+      "revenueTTM": 18315999232,
+      "marketCap": 78257168384,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Power & Electrical Equipment cluster."
+    ],
+    "tags": [
+      "power_electrical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.2366561212462,
+    "pricingPowerScore": 62.16067414190224,
+    "substitutabilityScore": 37.0760239877933,
+    "capitalIntensityScore": 64.69731268697174,
+    "valueCaptureScore": 61.15969434594394,
+    "centralityScore": 69.40891532510776
+  },
+  {
+    "id": "vrt",
+    "label": "Vertiv",
+    "shortLabel": "VRT",
+    "nodeType": "company",
+    "clusterId": "cooling_thermal",
+    "isCluster": false,
+    "ticker": "VRT",
+    "description": "Thermal management and critical power for AI racks.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 80.54912,
+      "revenueTTM": 10843400192,
+      "marketCap": 122830315520,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Cooling & Thermal cluster."
+    ],
+    "tags": [
+      "cooling_thermal"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 69.18187259177486,
+    "pricingPowerScore": 64.95804633920453,
+    "substitutabilityScore": 40.271177741576054,
+    "capitalIntensityScore": 59.44929597102882,
+    "valueCaptureScore": 56.098776211206264,
+    "centralityScore": 73.04896882884643
+  },
+  {
+    "id": "jci",
+    "label": "Johnson Controls",
+    "shortLabel": "JCI",
+    "nodeType": "company",
+    "clusterId": "cooling_thermal",
+    "isCluster": false,
+    "ticker": "JCI",
+    "description": "Building HVAC and cooling systems.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 42.134148,
+      "revenueTTM": 24433000448,
+      "marketCap": 84317970432,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Cooling & Thermal cluster."
+    ],
+    "tags": [
+      "cooling_thermal"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 74.0571679467279,
+    "pricingPowerScore": 58.82547379319833,
+    "substitutabilityScore": 46.925772218735645,
+    "capitalIntensityScore": 60.767642920203684,
+    "valueCaptureScore": 54.29393738938687,
+    "centralityScore": 69.35329516594288
+  },
+  {
+    "id": "tt",
+    "label": "Trane Technologies",
+    "shortLabel": "TT",
+    "nodeType": "company",
+    "clusterId": "cooling_thermal",
+    "isCluster": false,
+    "ticker": "TT",
+    "description": "Commercial HVAC and chillers.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 34.964092,
+      "revenueTTM": 21602799616,
+      "marketCap": 101172666368,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Cooling & Thermal cluster."
+    ],
+    "tags": [
+      "cooling_thermal"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.15841439539457,
+    "pricingPowerScore": 58.353707606460524,
+    "substitutabilityScore": 39.686746411870956,
+    "capitalIntensityScore": 63.776794617818375,
+    "valueCaptureScore": 60.194907003494194,
+    "centralityScore": 72.87506862961578
+  },
+  {
+    "id": "lii",
+    "label": "Lennox International",
+    "shortLabel": "LII",
+    "nodeType": "company",
+    "clusterId": "cooling_thermal",
+    "isCluster": false,
+    "ticker": "LII",
+    "description": "Climate control equipment.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 22.37261,
+      "revenueTTM": 5257800192,
+      "marketCap": 17509951488,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Cooling & Thermal cluster."
+    ],
+    "tags": [
+      "cooling_thermal"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.31678588552211,
+    "pricingPowerScore": 62.97965510261237,
+    "substitutabilityScore": 39.60502643820016,
+    "capitalIntensityScore": 56.64023423087928,
+    "valueCaptureScore": 54.74361595574669,
+    "centralityScore": 70.428136818175
+  },
+  {
+    "id": "mod",
+    "label": "Modine Manufacturing",
+    "shortLabel": "MOD",
+    "nodeType": "company",
+    "clusterId": "cooling_thermal",
+    "isCluster": false,
+    "ticker": "MOD",
+    "description": "Thermal management components.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 123.31718,
+      "revenueTTM": 3181100032,
+      "marketCap": 14761042944,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Cooling & Thermal cluster."
+    ],
+    "tags": [
+      "cooling_thermal"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 68.00757376279635,
+    "pricingPowerScore": 64.614696855071,
+    "substitutabilityScore": 46.488742097426865,
+    "capitalIntensityScore": 61.41960423909333,
+    "valueCaptureScore": 56.19460786678661,
+    "centralityScore": 64.285756346415
+  },
+  {
+    "id": "eqix",
+    "label": "Equinix",
+    "shortLabel": "EQIX",
+    "nodeType": "company",
+    "clusterId": "data_center_infra",
+    "isCluster": false,
+    "ticker": "EQIX",
+    "description": "Interconnection-focused colocation REIT.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 74.06367,
+      "revenueTTM": 9525999616,
+      "marketCap": 105549643776,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Data Center Infrastructure cluster."
+    ],
+    "tags": [
+      "data_center_infra"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 65.58816060933962,
+    "pricingPowerScore": 59.05683558370593,
+    "substitutabilityScore": 50.216265020987656,
+    "capitalIntensityScore": 75.67616481132919,
+    "valueCaptureScore": 57.07599718177485,
+    "centralityScore": 66.68406545111756
+  },
+  {
+    "id": "dlr",
+    "label": "Digital Realty",
+    "shortLabel": "DLR",
+    "nodeType": "company",
+    "clusterId": "data_center_infra",
+    "isCluster": false,
+    "ticker": "DLR",
+    "description": "Hyperscale and enterprise colocation.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 50.716934,
+      "revenueTTM": 6314048000,
+      "marketCap": 68574490624,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Data Center Infrastructure cluster."
+    ],
+    "tags": [
+      "data_center_infra"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 72.09168761780387,
+    "pricingPowerScore": 55.955873684327834,
+    "substitutabilityScore": 47.251546428735864,
+    "capitalIntensityScore": 67.85961388744079,
+    "valueCaptureScore": 63.10660711647055,
+    "centralityScore": 61.74714438202339
+  },
+  {
+    "id": "amt",
+    "label": "American Tower",
+    "shortLabel": "AMT",
+    "nodeType": "company",
+    "clusterId": "data_center_infra",
+    "isCluster": false,
+    "ticker": "AMT",
+    "description": "Tower and edge data infrastructure.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 29.835484,
+      "revenueTTM": 10819300352,
+      "marketCap": 86180896768,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Data Center Infrastructure cluster."
+    ],
+    "tags": [
+      "data_center_infra"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 66.19221830429525,
+    "pricingPowerScore": 57.45733596763486,
+    "substitutabilityScore": 47.18701086380038,
+    "capitalIntensityScore": 75.1830847798482,
+    "valueCaptureScore": 59.66016289126244,
+    "centralityScore": 62.387233960902364
+  },
+  {
+    "id": "irm",
+    "label": "Iron Mountain",
+    "shortLabel": "IRM",
+    "nodeType": "company",
+    "clusterId": "data_center_infra",
+    "isCluster": false,
+    "ticker": "IRM",
+    "description": "Storage and emerging data center footprint.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 139.57143,
+      "revenueTTM": 7245357056,
+      "marketCap": 37788610560,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Data Center Infrastructure cluster."
+    ],
+    "tags": [
+      "data_center_infra"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 72.47202967234749,
+    "pricingPowerScore": 54.45885568611424,
+    "substitutabilityScore": 42.4796601896826,
+    "capitalIntensityScore": 77.50501887668014,
+    "valueCaptureScore": 55.333634989161595,
+    "centralityScore": 68.39700014493414
+  },
+  {
+    "id": "cone",
+    "label": "CyrusOne",
+    "shortLabel": "CONE",
+    "nodeType": "company",
+    "clusterId": "data_center_infra",
+    "isCluster": false,
+    "ticker": "CONE",
+    "description": "Colocation operator (private post-KKR/GIP; illustrative node).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to Data Center Infrastructure."
+    ],
+    "tags": [
+      "data_center_infra",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.18297027021474,
+    "pricingPowerScore": 55.21338128452668,
+    "substitutabilityScore": 48.10170975746594,
+    "capitalIntensityScore": 76.38632243878628,
+    "valueCaptureScore": 54.463272646901004,
+    "centralityScore": 62.69382484994117
+  },
+  {
+    "id": "tsm",
+    "label": "TSMC",
+    "shortLabel": "TSM",
+    "nodeType": "company",
+    "clusterId": "semi_fabrication",
+    "isCluster": false,
+    "ticker": "TSM",
+    "description": "Dominant advanced foundry for AI accelerators.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 36.099915,
+      "revenueTTM": 4103904165888,
+      "marketCap": 2192478175232,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semiconductor Fabrication cluster."
+    ],
+    "tags": [
+      "semi_fabrication"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 77.56708530575007,
+    "pricingPowerScore": 63.705344770052584,
+    "substitutabilityScore": 37.53010507117148,
+    "capitalIntensityScore": 76.78634414643247,
+    "valueCaptureScore": 70.99428454166363,
+    "centralityScore": 74.76339086043592
+  },
+  {
+    "id": "intc",
+    "label": "Intel",
+    "shortLabel": "INTC",
+    "nodeType": "company",
+    "clusterId": "semi_fabrication",
+    "isCluster": false,
+    "ticker": "INTC",
+    "description": "IDM and foundry aspirant for AI and server CPUs.",
+    "roles": [
+      "semi_fabrication",
+      "ai_accel_compute"
+    ],
+    "fundamentals": {
+      "pe": 79.0858,
+      "revenueTTM": 53762998272,
+      "marketCap": 612015996928,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semiconductor Fabrication cluster."
+    ],
+    "tags": [
+      "semi_fabrication"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 74.52278472729444,
+    "pricingPowerScore": 57.87635063273405,
+    "substitutabilityScore": 35.19968802850213,
+    "capitalIntensityScore": 84.37293783716638,
+    "valueCaptureScore": 66.59727471340774,
+    "centralityScore": 77.47883316801807
+  },
+  {
+    "id": "gfs",
+    "label": "GlobalFoundries",
+    "shortLabel": "GFS",
+    "nodeType": "company",
+    "clusterId": "semi_fabrication",
+    "isCluster": false,
+    "ticker": "GFS",
+    "description": "Specialty and mature node manufacturing.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 51.012577,
+      "revenueTTM": 6840000000,
+      "marketCap": 44482060288,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semiconductor Fabrication cluster."
+    ],
+    "tags": [
+      "semi_fabrication"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 83.27473719199148,
+    "pricingPowerScore": 54.40214628095321,
+    "substitutabilityScore": 43.25891969447818,
+    "capitalIntensityScore": 86.17055634286899,
+    "valueCaptureScore": 61.62868777292911,
+    "centralityScore": 74.49259137679354
+  },
+  {
+    "id": "umc",
+    "label": "UMC",
+    "shortLabel": "UMC",
+    "nodeType": "company",
+    "clusterId": "semi_fabrication",
+    "isCluster": false,
+    "ticker": "UMC",
+    "description": "Taiwan foundry for mixed-signal and mature nodes.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 35.26984,
+      "revenueTTM": 240732143616,
+      "marketCap": 55756349440,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semiconductor Fabrication cluster."
+    ],
+    "tags": [
+      "semi_fabrication"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 82.2322480279537,
+    "pricingPowerScore": 63.76779914270242,
+    "substitutabilityScore": 35.482411152490535,
+    "capitalIntensityScore": 87.21160576079241,
+    "valueCaptureScore": 67.21480652534775,
+    "centralityScore": 73.98625078625638
+  },
+  {
+    "id": "ssnlf",
+    "label": "Samsung Electronics",
+    "shortLabel": "SSNLF",
+    "nodeType": "company",
+    "clusterId": "semi_fabrication",
+    "isCluster": false,
+    "ticker": "SSNLF",
+    "description": "Memory and logic foundry competitor.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 19.523952,
+      "revenueTTM": 388338863308800,
+      "marketCap": 428205604864,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semiconductor Fabrication cluster."
+    ],
+    "tags": [
+      "semi_fabrication"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 77.94682360109205,
+    "pricingPowerScore": 62.380779769472795,
+    "substitutabilityScore": 36.91738723499613,
+    "capitalIntensityScore": 76.0134936970201,
+    "valueCaptureScore": 66.45624062774269,
+    "centralityScore": 78.240509724093
+  },
+  {
+    "id": "asml",
+    "label": "ASML",
+    "shortLabel": "ASML",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "ASML",
+    "description": "EUV monopoly for leading-edge nodes.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 53.19141,
+      "revenueTTM": 33692700672,
+      "marketCap": 615847297024,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 79.60300759448437,
+    "pricingPowerScore": 72.3209268909984,
+    "substitutabilityScore": 28.357847117740814,
+    "capitalIntensityScore": 75.01456983200121,
+    "valueCaptureScore": 76.2949866831251,
+    "centralityScore": 83.7526840689664
+  },
+  {
+    "id": "amat",
+    "label": "Applied Materials",
+    "shortLabel": "AMAT",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "AMAT",
+    "description": "Deposition and etch breadth.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 42.2081,
+      "revenueTTM": 29024000000,
+      "marketCap": 355892297728,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 75,
+    "pricingPowerScore": 70.83333333333333,
+    "substitutabilityScore": 37.5,
+    "capitalIntensityScore": 37.5,
+    "valueCaptureScore": 75,
+    "centralityScore": 18.75
+  },
+  {
+    "id": "lrcx",
+    "label": "Lam Research",
+    "shortLabel": "LRCX",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "LRCX",
+    "description": "Etch and clean for advanced nodes.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 60.289223,
+      "revenueTTM": 21681844224,
+      "marketCap": 398844592128,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.7058606448765,
+    "pricingPowerScore": 70.81762954578805,
+    "substitutabilityScore": 25.890215428574315,
+    "capitalIntensityScore": 70.62456077852575,
+    "valueCaptureScore": 76.43654249800663,
+    "centralityScore": 79.74747325456634
+  },
+  {
+    "id": "klac",
+    "label": "KLA Corporation",
+    "shortLabel": "KLAC",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "KLAC",
+    "description": "Process control and inspection.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 55.55464,
+      "revenueTTM": 13096660992,
+      "marketCap": 255662866432,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 90.22668194099393,
+    "pricingPowerScore": 74.26290182528521,
+    "substitutabilityScore": 33.58392649555475,
+    "capitalIntensityScore": 67.13532104312524,
+    "valueCaptureScore": 81.55475211183335,
+    "centralityScore": 80.99352388879662
+  },
+  {
+    "id": "onto",
+    "label": "Onto Innovation",
+    "shortLabel": "ONTO",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "ONTO",
+    "description": "Metrology and lithography overlay.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 123.56019,
+      "revenueTTM": 1030604992,
+      "marketCap": 13276061696,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 83.6848130258777,
+    "pricingPowerScore": 71.27117357197227,
+    "substitutabilityScore": 24.419830283034617,
+    "capitalIntensityScore": 64.68110526757388,
+    "valueCaptureScore": 78.14993262090879,
+    "centralityScore": 76.86836736497033
+  },
+  {
+    "id": "ter",
+    "label": "Teradyne",
+    "shortLabel": "TER",
+    "nodeType": "company",
+    "clusterId": "semi_equipment",
+    "isCluster": false,
+    "ticker": "TER",
+    "description": "Test equipment for advanced packages.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 69.98696,
+      "revenueTTM": 3786838016,
+      "marketCap": 58833235968,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Semi Equipment & Lithography cluster."
+    ],
+    "tags": [
+      "semi_equipment"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 90.0751358706539,
+    "pricingPowerScore": 78.04461057926278,
+    "substitutabilityScore": 25.92850994574503,
+    "capitalIntensityScore": 70.63268088081335,
+    "valueCaptureScore": 82.82247369084854,
+    "centralityScore": 78.69148629854122
+  },
+  {
+    "id": "amkr",
+    "label": "Amkor Technology",
+    "shortLabel": "AMKR",
+    "nodeType": "company",
+    "clusterId": "packaging_osat",
+    "isCluster": false,
+    "ticker": "AMKR",
+    "description": "Large OSAT; advanced packaging for AI devices.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 41.488506,
+      "revenueTTM": 7071107072,
+      "marketCap": 17893916672,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Advanced Packaging & OSAT cluster."
+    ],
+    "tags": [
+      "packaging_osat"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 25,
+    "pricingPowerScore": 20.833333333333332,
+    "substitutabilityScore": 83.33333333333333,
+    "capitalIntensityScore": 75,
+    "valueCaptureScore": 29.166666666666668,
+    "centralityScore": 48.125
+  },
+  {
+    "id": "asx",
+    "label": "ASE Technology",
+    "shortLabel": "ASX",
+    "nodeType": "company",
+    "clusterId": "packaging_osat",
+    "isCluster": false,
+    "ticker": "ASX",
+    "description": "World's largest OSAT; CoWoS and advanced packaging.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 60.107693,
+      "revenueTTM": 670896619520,
+      "marketCap": 85717467136,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Advanced Packaging & OSAT cluster."
+    ],
+    "tags": [
+      "packaging_osat"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 79.23116286190037,
+    "pricingPowerScore": 65.52361757244583,
+    "substitutabilityScore": 35.68851006863281,
+    "capitalIntensityScore": 71.69167136756298,
+    "valueCaptureScore": 73.39130707201677,
+    "centralityScore": 68.390794200353
+  },
+  {
+    "id": "jcet",
+    "label": "JCET Group",
+    "shortLabel": "JCET",
+    "nodeType": "company",
+    "clusterId": "packaging_osat",
+    "isCluster": false,
+    "ticker": "JCET",
+    "description": "Large OSAT; packaging for logic and memory.",
+    "roles": [],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Advanced Packaging & OSAT cluster."
+    ],
+    "tags": [
+      "packaging_osat"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 72.4493840434998,
+    "pricingPowerScore": 67.69313691687776,
+    "substitutabilityScore": 39.90799506623016,
+    "capitalIntensityScore": 72.60021342599657,
+    "valueCaptureScore": 75.55302027872477,
+    "centralityScore": 75.79396971560416
+  },
+  {
+    "id": "camt",
+    "label": "Camtek",
+    "shortLabel": "CAMT",
+    "nodeType": "company",
+    "clusterId": "packaging_osat",
+    "isCluster": false,
+    "ticker": "CAMT",
+    "description": "Inspection/metrology for advanced packaging.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 174.86597,
+      "revenueTTM": 499092992,
+      "marketCap": 7810063872,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Advanced Packaging & OSAT cluster."
+    ],
+    "tags": [
+      "packaging_osat"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 79.80357755080976,
+    "pricingPowerScore": 63.874254570922076,
+    "substitutabilityScore": 38.31221482224349,
+    "capitalIntensityScore": 65.06697163958708,
+    "valueCaptureScore": 72.83626543504556,
+    "centralityScore": 75.5040202957351
+  },
+  {
+    "id": "mu",
+    "label": "Micron Technology",
+    "shortLabel": "MU",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "MU",
+    "description": "HBM and DRAM for AI servers.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 43.85498,
+      "revenueTTM": 58119000064,
+      "marketCap": 1046999531520,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 87.94554707356177,
+    "pricingPowerScore": 75.98098905488197,
+    "substitutabilityScore": 26.840995705788416,
+    "capitalIntensityScore": 80.85397088455932,
+    "valueCaptureScore": 88.02824080172296,
+    "centralityScore": 82.2282894048028
+  },
+  {
+    "id": "000660_ks",
+    "label": "SK hynix",
+    "shortLabel": "000660.KS",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "000660.KS",
+    "description": "HBM leader supplying accelerators.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 5.987501,
+      "revenueTTM": 167020960153600,
+      "marketCap": 1624857934561280,
+      "currency": "KRW",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "mid"
+    },
+    "importanceScore": 87.5,
+    "pricingPowerScore": 87.5,
+    "substitutabilityScore": 33.333333333333336,
+    "capitalIntensityScore": 68.75,
+    "valueCaptureScore": 87.5,
+    "centralityScore": 61.875
+  },
+  {
+    "id": "wdc",
+    "label": "Western Digital",
+    "shortLabel": "WDC",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "WDC",
+    "description": "NAND and storage platforms.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 31.75344,
+      "revenueTTM": 11777000448,
+      "marketCap": 182888333312,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.87350836228933,
+    "pricingPowerScore": 66.57581524096416,
+    "substitutabilityScore": 31.66503726358034,
+    "capitalIntensityScore": 75.2756437626064,
+    "valueCaptureScore": 87.2003621128289,
+    "centralityScore": 84.36103855834696
+  },
+  {
+    "id": "sndk",
+    "label": "SanDisk",
+    "shortLabel": "SNDK",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "SNDK",
+    "description": "Consumer NAND brand under WDC umbrella.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 54.356922,
+      "revenueTTM": 13184000000,
+      "marketCap": 235453825024,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 92.29768078796647,
+    "pricingPowerScore": 71.54450554942454,
+    "substitutabilityScore": 31.414171265574275,
+    "capitalIntensityScore": 73.09312611390595,
+    "valueCaptureScore": 78.89817550028272,
+    "centralityScore": 83.76930286475802
+  },
+  {
+    "id": "stx",
+    "label": "Seagate",
+    "shortLabel": "STX",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "STX",
+    "description": "HDD and mass storage for cold tiers.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 82.68376,
+      "revenueTTM": 11009999872,
+      "marketCap": 195227205632,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 83.4934806962992,
+    "pricingPowerScore": 77.63028648870424,
+    "substitutabilityScore": 36.80320970233869,
+    "capitalIntensityScore": 70.03249836372204,
+    "valueCaptureScore": 80.4585986086151,
+    "centralityScore": 85.96025627514071
+  },
+  {
+    "id": "pstg",
+    "label": "Pure Storage",
+    "shortLabel": "PSTG",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "PSTG",
+    "description": "Enterprise flash and AI-ready arrays.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 123.27273,
+      "revenueTTM": 3662842880,
+      "marketCap": 22405251072,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 93.96878249406274,
+    "pricingPowerScore": 75.34132775375687,
+    "substitutabilityScore": 27.371787802991474,
+    "capitalIntensityScore": 74.44664330535437,
+    "valueCaptureScore": 83.97117640330384,
+    "centralityScore": 79.78221760781352
+  },
+  {
+    "id": "ntap",
+    "label": "NetApp",
+    "shortLabel": "NTAP",
+    "nodeType": "company",
+    "clusterId": "memory_storage",
+    "isCluster": false,
+    "ticker": "NTAP",
+    "description": "Hybrid cloud storage software/hardware.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 23.90955,
+      "revenueTTM": 6709000192,
+      "marketCap": 28271134720,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Memory & Storage cluster."
+    ],
+    "tags": [
+      "memory_storage"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 85.47725800608367,
+    "pricingPowerScore": 67.36027750105087,
+    "substitutabilityScore": 36.670030503289226,
+    "capitalIntensityScore": 75.87405634789981,
+    "valueCaptureScore": 84.23607448125894,
+    "centralityScore": 80.74856068470218
+  },
+  {
+    "id": "nvda",
+    "label": "NVIDIA",
+    "shortLabel": "NVDA",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "NVDA",
+    "description": "Dominant AI GPU and CUDA ecosystem.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 32.557426,
+      "revenueTTM": 253491003392,
+      "marketCap": 5149384769536,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.40206389520843,
+    "pricingPowerScore": 83.43956256902717,
+    "substitutabilityScore": 30.135884378488278,
+    "capitalIntensityScore": 57.17016805573959,
+    "valueCaptureScore": 95.1174806456273,
+    "centralityScore": 87.8135432068326
+  },
+  {
+    "id": "amd",
+    "label": "Advanced Micro Devices",
+    "shortLabel": "AMD",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "AMD",
+    "description": "MI accelerators and EPYC host CPUs.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 164.08609,
+      "revenueTTM": 37454000128,
+      "marketCap": 808027815936,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 100,
+    "pricingPowerScore": 50,
+    "substitutabilityScore": 58.333333333333336,
+    "capitalIntensityScore": 12.5,
+    "valueCaptureScore": 41.666666666666664,
+    "centralityScore": 95.625
+  },
+  {
+    "id": "avgo",
+    "label": "Broadcom",
+    "shortLabel": "AVGO",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "AVGO",
+    "description": "Custom AI ASICs and high-speed networking silicon.",
+    "roles": [
+      "ai_accel_compute",
+      "networking_optical"
+    ],
+    "fundamentals": {
+      "pe": 81.91456,
+      "revenueTTM": 68281999360,
+      "marketCap": 1997367148544,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.29598789207171,
+    "pricingPowerScore": 81.69441603965336,
+    "substitutabilityScore": 26.279319771945623,
+    "capitalIntensityScore": 53.60790754489419,
+    "valueCaptureScore": 92.95983471050408,
+    "centralityScore": 88.60653231188087
+  },
+  {
+    "id": "mrvl",
+    "label": "Marvell Technology",
+    "shortLabel": "MRVL",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "MRVL",
+    "description": "Custom AI silicon and electro-optics.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 64.512985,
+      "revenueTTM": 8194599936,
+      "marketCap": 173972406272,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 87.92376550338712,
+    "pricingPowerScore": 87.11075822176963,
+    "substitutabilityScore": 26.499164424510834,
+    "capitalIntensityScore": 58.33249484476791,
+    "valueCaptureScore": 87.19595208364667,
+    "centralityScore": 91.47379869424111
+  },
+  {
+    "id": "qcom",
+    "label": "Qualcomm",
+    "shortLabel": "QCOM",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "QCOM",
+    "description": "Edge AI and datacenter inference SOCs.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 25.123789,
+      "revenueTTM": 44486000640,
+      "marketCap": 246003597312,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 87.25178173795697,
+    "pricingPowerScore": 81.76545302923373,
+    "substitutabilityScore": 31.00010017563646,
+    "capitalIntensityScore": 54.095568869222355,
+    "valueCaptureScore": 89.3697840759654,
+    "centralityScore": 89.48144642968767
+  },
+  {
+    "id": "arm",
+    "label": "Arm Holdings",
+    "shortLabel": "ARM",
+    "nodeType": "company",
+    "clusterId": "ai_accel_compute",
+    "isCluster": false,
+    "ticker": "ARM",
+    "description": "IP licensing for efficient AI CPUs.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 356.1294,
+      "revenueTTM": 4920000000,
+      "marketCap": 322099707904,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to AI Accelerators & Compute cluster."
+    ],
+    "tags": [
+      "ai_accel_compute"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.29718682973119,
+    "pricingPowerScore": 79.67548935056128,
+    "substitutabilityScore": 25.56754986309059,
+    "capitalIntensityScore": 60.81330370718338,
+    "valueCaptureScore": 92.95871849848294,
+    "centralityScore": 86.7373245248864
+  },
+  {
+    "id": "anet",
+    "label": "Arista Networks",
+    "shortLabel": "ANET",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "ANET",
+    "description": "Dominant AI cluster Ethernet switching.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 52.84589,
+      "revenueTTM": 9709899776,
+      "marketCap": 194302427136,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 76.87025727353416,
+    "pricingPowerScore": 63.79095347464553,
+    "substitutabilityScore": 35.25534074401743,
+    "capitalIntensityScore": 49.70449843725417,
+    "valueCaptureScore": 64.04026702853425,
+    "centralityScore": 77.72301166324684
+  },
+  {
+    "id": "csco",
+    "label": "Cisco Systems",
+    "shortLabel": "CSCO",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "CSCO",
+    "description": "Data center switching and optics.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 39.89,
+      "revenueTTM": 60745998336,
+      "marketCap": 471671472128,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 80.33759250101187,
+    "pricingPowerScore": 59.811690890424174,
+    "substitutabilityScore": 44.12175750889765,
+    "capitalIntensityScore": 46.10966187096756,
+    "valueCaptureScore": 66.4816076189332,
+    "centralityScore": 66.76964890007648
+  },
+  {
+    "id": "cohr",
+    "label": "Coherent",
+    "shortLabel": "COHR",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "COHR",
+    "description": "Optical components and transceivers.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 181.90431,
+      "revenueTTM": 6602083840,
+      "marketCap": 74378158080,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 71.0449837790017,
+    "pricingPowerScore": 60.919540232496175,
+    "substitutabilityScore": 39.05635794640477,
+    "capitalIntensityScore": 51.17385653661247,
+    "valueCaptureScore": 65.568131530486,
+    "centralityScore": 73.35367406047364
+  },
+  {
+    "id": "lite",
+    "label": "Lumentum",
+    "shortLabel": "LITE",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "LITE",
+    "description": "Lasers and optical communications.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 158.85739,
+      "revenueTTM": 2488399872,
+      "marketCap": 70199713792,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 77.63378654135674,
+    "pricingPowerScore": 68.30561123324766,
+    "substitutabilityScore": 43.52488062979075,
+    "capitalIntensityScore": 50.50199045293361,
+    "valueCaptureScore": 64.95801782848227,
+    "centralityScore": 76.39157010870932
+  },
+  {
+    "id": "aph",
+    "label": "Amphenol",
+    "shortLabel": "APH",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "APH",
+    "description": "Copper and optical interconnect.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 40.29885,
+      "revenueTTM": 25903800320,
+      "marketCap": 172528091136,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.49440991152764,
+    "pricingPowerScore": 70.60617345641428,
+    "substitutabilityScore": 45.51415631949737,
+    "capitalIntensityScore": 47.972695055619404,
+    "valueCaptureScore": 63.96573875930504,
+    "centralityScore": 76.85314022115685
+  },
+  {
+    "id": "cien",
+    "label": "Ciena",
+    "shortLabel": "CIEN",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "CIEN",
+    "description": "Optical transport and DCI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 370.7516,
+      "revenueTTM": 5124289024,
+      "marketCap": 82305204224,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 75.78714446291245,
+    "pricingPowerScore": 66.43838915754796,
+    "substitutabilityScore": 39.45695595733619,
+    "capitalIntensityScore": 50.35802115914185,
+    "valueCaptureScore": 67.64357871378779,
+    "centralityScore": 72.47649273692696
+  },
+  {
+    "id": "jnpr",
+    "label": "Juniper Networks",
+    "shortLabel": "JNPR",
+    "nodeType": "company",
+    "clusterId": "networking_optical",
+    "isCluster": false,
+    "ticker": "JNPR",
+    "description": "Routing and switching (HPE deal).",
+    "roles": [],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Networking & Optical cluster."
+    ],
+    "tags": [
+      "networking_optical"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 71.39594148855544,
+    "pricingPowerScore": 70.7182870849553,
+    "substitutabilityScore": 38.57624991913286,
+    "capitalIntensityScore": 54.6285819130873,
+    "valueCaptureScore": 67.4283167567303,
+    "centralityScore": 67.58236269270051
+  },
+  {
+    "id": "flex",
+    "label": "Flex Ltd",
+    "shortLabel": "FLEX",
+    "nodeType": "company",
+    "clusterId": "contract_manufacturing",
+    "isCluster": false,
+    "ticker": "FLEX",
+    "description": "EMS for servers and subsystems.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 62.570816,
+      "revenueTTM": 27914000384,
+      "marketCap": 53414236160,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Contract Manufacturing (EMS) cluster."
+    ],
+    "tags": [
+      "contract_manufacturing"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 57.73936074516059,
+    "pricingPowerScore": 33.69344845052246,
+    "substitutabilityScore": 56.912409309169504,
+    "capitalIntensityScore": 47.92791184215178,
+    "valueCaptureScore": 39.68210653536975,
+    "centralityScore": 56.7917221023671
+  },
+  {
+    "id": "jbl",
+    "label": "Jabil",
+    "shortLabel": "JBL",
+    "nodeType": "company",
+    "clusterId": "contract_manufacturing",
+    "isCluster": false,
+    "ticker": "JBL",
+    "description": "Contract manufacturing at scale.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 49.983852,
+      "revenueTTM": 32667000832,
+      "marketCap": 39181565952,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Contract Manufacturing (EMS) cluster."
+    ],
+    "tags": [
+      "contract_manufacturing"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 56.740711703524724,
+    "pricingPowerScore": 33.68887103964645,
+    "substitutabilityScore": 50.719483969388214,
+    "capitalIntensityScore": 50.96725987667732,
+    "valueCaptureScore": 31.417465189553894,
+    "centralityScore": 55.909615940226686
+  },
+  {
+    "id": "cls",
+    "label": "Celestica",
+    "shortLabel": "CLS",
+    "nodeType": "company",
+    "clusterId": "contract_manufacturing",
+    "isCluster": false,
+    "ticker": "CLS",
+    "description": "Enterprise and cloud hardware manufacturing.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 43.305084,
+      "revenueTTM": 13789299712,
+      "marketCap": 41125879808,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Contract Manufacturing (EMS) cluster."
+    ],
+    "tags": [
+      "contract_manufacturing"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 52.179211487029406,
+    "pricingPowerScore": 42.80975711932518,
+    "substitutabilityScore": 59.097794705077874,
+    "capitalIntensityScore": 44.88255869848574,
+    "valueCaptureScore": 29.132808217363866,
+    "centralityScore": 55.94376555388079
+  },
+  {
+    "id": "fii",
+    "label": "Foxconn Industrial Internet",
+    "shortLabel": "FII",
+    "nodeType": "company",
+    "clusterId": "contract_manufacturing",
+    "isCluster": false,
+    "ticker": "FII",
+    "description": "Server and rack assembly.",
+    "roles": [],
+    "fundamentals": {
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Contract Manufacturing (EMS) cluster."
+    ],
+    "tags": [
+      "contract_manufacturing"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 62.535402031409745,
+    "pricingPowerScore": 40.23320491791668,
+    "substitutabilityScore": 59.18044674445356,
+    "capitalIntensityScore": 42.045089686494805,
+    "valueCaptureScore": 34.321805921871665,
+    "centralityScore": 53.00018946667597
+  },
+  {
+    "id": "amzn",
+    "label": "Amazon",
+    "shortLabel": "AMZN",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "AMZN",
+    "description": "AWS and largest AI capex spender.",
+    "roles": [
+      "hyperscaler_cloud",
+      "digital_advertising"
+    ],
+    "fundamentals": {
+      "pe": 31.647264,
+      "revenueTTM": 742775980032,
+      "marketCap": 2924320391168,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 94.36451934937622,
+    "pricingPowerScore": 70.97610385482444,
+    "substitutabilityScore": 40.47795344646868,
+    "capitalIntensityScore": 93.43064368654467,
+    "valueCaptureScore": 90.17399897271335,
+    "centralityScore": 86.64310006519652
+  },
+  {
+    "id": "msft",
+    "label": "Microsoft",
+    "shortLabel": "MSFT",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "MSFT",
+    "description": "Azure, OpenAI partnership, Copilot stack.",
+    "roles": [
+      "hyperscaler_cloud",
+      "enterprise_software"
+    ],
+    "fundamentals": {
+      "pe": 24.563692,
+      "revenueTTM": 318272995328,
+      "marketCap": 3065492275200,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 91.45085656462462,
+    "pricingPowerScore": 67.32332688471554,
+    "substitutabilityScore": 45.85480385539665,
+    "capitalIntensityScore": 85.62890471119078,
+    "valueCaptureScore": 88.42830150038459,
+    "centralityScore": 92.89648054794885
+  },
+  {
+    "id": "googl",
+    "label": "Alphabet",
+    "shortLabel": "GOOGL",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "GOOGL",
+    "description": "GCP, TPU, Gemini, and ads monetization.",
+    "roles": [
+      "hyperscaler_cloud",
+      "digital_advertising"
+    ],
+    "fundamentals": {
+      "pe": 29.681677,
+      "revenueTTM": 422498009088,
+      "marketCap": 4710847741952,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 91.77886960668896,
+    "pricingPowerScore": 75.21462949160441,
+    "substitutabilityScore": 37.476844731383736,
+    "capitalIntensityScore": 87.32628595615093,
+    "valueCaptureScore": 80.61246314497978,
+    "centralityScore": 88.33828676369889
+  },
+  {
+    "id": "meta",
+    "label": "Meta Platforms",
+    "shortLabel": "META",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "META",
+    "description": "Llama, ads AI, and massive GPU fleet.",
+    "roles": [
+      "hyperscaler_cloud",
+      "digital_advertising"
+    ],
+    "fundamentals": {
+      "pe": 23.091785,
+      "revenueTTM": 214962995200,
+      "marketCap": 1612546048000,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 90.75500214448398,
+    "pricingPowerScore": 68.48269253335144,
+    "substitutabilityScore": 36.43575349660039,
+    "capitalIntensityScore": 88.51916997243636,
+    "valueCaptureScore": 81.7954140948521,
+    "centralityScore": 88.6255971428153
+  },
+  {
+    "id": "orcl",
+    "label": "Oracle",
+    "shortLabel": "ORCL",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "ORCL",
+    "description": "OCI GPU cloud growth.",
+    "roles": [
+      "hyperscaler_cloud",
+      "enterprise_software"
+    ],
+    "fundamentals": {
+      "pe": 34.222225,
+      "revenueTTM": 64076001280,
+      "marketCap": 549209767936,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 92.35661681313525,
+    "pricingPowerScore": 71.26584577424066,
+    "substitutabilityScore": 41.568687166591836,
+    "capitalIntensityScore": 87.9104880591856,
+    "valueCaptureScore": 80.46978285878109,
+    "centralityScore": 93.19757629810485
+  },
+  {
+    "id": "ibm",
+    "label": "IBM",
+    "shortLabel": "IBM",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "IBM",
+    "description": "Enterprise hybrid cloud and Watsonx.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 22.564102,
+      "revenueTTM": 68910997504,
+      "marketCap": 239858728960,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 88.08125564433877,
+    "pricingPowerScore": 64.85146689588947,
+    "substitutabilityScore": 41.264515965484264,
+    "capitalIntensityScore": 83.41476547766442,
+    "valueCaptureScore": 80.99256016630923,
+    "centralityScore": 84.184969318768
+  },
+  {
+    "id": "baba",
+    "label": "Alibaba",
+    "shortLabel": "BABA",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "BABA",
+    "description": "China cloud and AI investment.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 19.71605,
+      "revenueTTM": 1023670026240,
+      "marketCap": 306513346560,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 86.33583143061855,
+    "pricingPowerScore": 72.40463314055482,
+    "substitutabilityScore": 47.599169935494835,
+    "capitalIntensityScore": 89.69380658873824,
+    "valueCaptureScore": 84.69349997057589,
+    "centralityScore": 87.45516263760669
+  },
+  {
+    "id": "tcehy",
+    "label": "Tencent",
+    "shortLabel": "TCEHY",
+    "nodeType": "company",
+    "clusterId": "hyperscaler_cloud",
+    "isCluster": false,
+    "ticker": "TCEHY",
+    "description": "China hyperscaler and gaming AI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 15.60955,
+      "revenueTTM": 768201981952,
+      "marketCap": 501748695040,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Hyperscaler & Cloud Platforms cluster."
+    ],
+    "tags": [
+      "hyperscaler_cloud"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 91.9737135427254,
+    "pricingPowerScore": 66.94614214567815,
+    "substitutabilityScore": 39.372127260859514,
+    "capitalIntensityScore": 84.70437666435342,
+    "valueCaptureScore": 81.16827140301852,
+    "centralityScore": 87.37772285050805
+  },
+  {
+    "id": "openai",
+    "label": "OpenAI",
+    "shortLabel": "OPENAI",
+    "nodeType": "company",
+    "clusterId": "ai_model_labs",
+    "isCluster": false,
+    "ticker": "OPENAI",
+    "description": "Frontier models and API monetization (private; illustrative).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to AI Model Labs."
+    ],
+    "tags": [
+      "ai_model_labs",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "mid"
+    },
+    "importanceScore": 84.50768881881261,
+    "pricingPowerScore": 63.125442974802226,
+    "substitutabilityScore": 42.76581029301195,
+    "capitalIntensityScore": 45.11780327268488,
+    "valueCaptureScore": 78.64523310130006,
+    "centralityScore": 82.06793903095047
+  },
+  {
+    "id": "anthropic",
+    "label": "Anthropic",
+    "shortLabel": "ANTHROPIC",
+    "nodeType": "company",
+    "clusterId": "ai_model_labs",
+    "isCluster": false,
+    "ticker": "ANTHROPIC",
+    "description": "Claude models and enterprise APIs (private; illustrative).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to AI Model Labs."
+    ],
+    "tags": [
+      "ai_model_labs",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "mid"
+    },
+    "importanceScore": 78.56155499428432,
+    "pricingPowerScore": 64.1073948321194,
+    "substitutabilityScore": 44.94953804094433,
+    "capitalIntensityScore": 49.915206321935166,
+    "valueCaptureScore": 77.33878340829133,
+    "centralityScore": 82.33106939601906
+  },
+  {
+    "id": "mistral",
+    "label": "Mistral AI",
+    "shortLabel": "MISTRAL",
+    "nodeType": "company",
+    "clusterId": "ai_model_labs",
+    "isCluster": false,
+    "ticker": "MISTRAL",
+    "description": "European open and commercial models (private; illustrative).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to AI Model Labs."
+    ],
+    "tags": [
+      "ai_model_labs",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "mid"
+    },
+    "importanceScore": 85.89447786948803,
+    "pricingPowerScore": 67.2933566914921,
+    "substitutabilityScore": 49.52612648061057,
+    "capitalIntensityScore": 53.87309387506817,
+    "valueCaptureScore": 81.89973179039188,
+    "centralityScore": 76.60945637134675
+  },
+  {
+    "id": "xai",
+    "label": "xAI",
+    "shortLabel": "XAI",
+    "nodeType": "company",
+    "clusterId": "ai_model_labs",
+    "isCluster": false,
+    "ticker": "XAI",
+    "description": "Grok and Colossus training infrastructure (private; illustrative).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to AI Model Labs."
+    ],
+    "tags": [
+      "ai_model_labs",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 79.22709152313696,
+    "pricingPowerScore": 69.88921743875821,
+    "substitutabilityScore": 39.686255890907574,
+    "capitalIntensityScore": 52.544587819495575,
+    "valueCaptureScore": 79.16759578231421,
+    "centralityScore": 76.31245223418094
+  },
+  {
+    "id": "cohere",
+    "label": "Cohere",
+    "shortLabel": "COHERE",
+    "nodeType": "company",
+    "clusterId": "ai_model_labs",
+    "isCluster": false,
+    "ticker": "COHERE",
+    "description": "Enterprise-focused LLM APIs (private; illustrative).",
+    "roles": [],
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Illustrative / private entity mapped to AI Model Labs."
+    ],
+    "tags": [
+      "ai_model_labs",
+      "illustrative"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "mid"
+    },
+    "importanceScore": 87.76607267604682,
+    "pricingPowerScore": 71.80900408187145,
+    "substitutabilityScore": 49.9665739534193,
+    "capitalIntensityScore": 53.97487890210425,
+    "valueCaptureScore": 77.2055835563362,
+    "centralityScore": 76.61177593770385
+  },
+  {
+    "id": "crm",
+    "label": "Salesforce",
+    "shortLabel": "CRM",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "CRM",
+    "description": "CRM and Agentforce AI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 20.568945,
+      "revenueTTM": 41524998144,
+      "marketCap": 145212719104,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 76.11159967431725,
+    "pricingPowerScore": 65.78340452518482,
+    "substitutabilityScore": 50.73898742330768,
+    "capitalIntensityScore": 36.75681950751879,
+    "valueCaptureScore": 68.1225693184753,
+    "centralityScore": 71.96794860860729
+  },
+  {
+    "id": "now",
+    "label": "ServiceNow",
+    "shortLabel": "NOW",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "NOW",
+    "description": "Workflow automation with AI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 60.785717,
+      "revenueTTM": 13959999488,
+      "marketCap": 105317179392,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 71.01339439536632,
+    "pricingPowerScore": 56.96127914878169,
+    "substitutabilityScore": 50.30747353851083,
+    "capitalIntensityScore": 39.591109449641124,
+    "valueCaptureScore": 69.93745644291837,
+    "centralityScore": 66.76572639711918
+  },
+  {
+    "id": "adbe",
+    "label": "Adobe",
+    "shortLabel": "ADBE",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "ADBE",
+    "description": "Creative and document AI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 13.891546,
+      "revenueTTM": 24452999168,
+      "marketCap": 96296607744,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 62.5,
+    "pricingPowerScore": 100,
+    "substitutabilityScore": 8.333333333333334,
+    "capitalIntensityScore": 6.25,
+    "valueCaptureScore": 100,
+    "centralityScore": 34.375
+  },
+  {
+    "id": "wday",
+    "label": "Workday",
+    "shortLabel": "WDAY",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "WDAY",
+    "description": "HR/finance enterprise AI.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 38.785046,
+      "revenueTTM": 9854000128,
+      "marketCap": 30748196864,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 78.86993272103336,
+    "pricingPowerScore": 58.29224526502689,
+    "substitutabilityScore": 50.33939913425476,
+    "capitalIntensityScore": 41.63398359061922,
+    "valueCaptureScore": 75.86826570000656,
+    "centralityScore": 72.87392286213446
+  },
+  {
+    "id": "snow",
+    "label": "Snowflake",
+    "shortLabel": "SNOW",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "SNOW",
+    "description": "Data cloud for AI pipelines.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 72.32197,
+      "revenueTTM": 4683945984,
+      "marketCap": 60745625600,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 70.71858256752307,
+    "pricingPowerScore": 62.2107932146793,
+    "substitutabilityScore": 55.49659932157053,
+    "capitalIntensityScore": 39.159016548702695,
+    "valueCaptureScore": 69.84106923745824,
+    "centralityScore": 69.73063830116962
+  },
+  {
+    "id": "pltr",
+    "label": "Palantir",
+    "shortLabel": "PLTR",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "PLTR",
+    "description": "Gov/commercial AI platforms.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 148.88763,
+      "revenueTTM": 5224174080,
+      "marketCap": 317667803136,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 76.41154784725852,
+    "pricingPowerScore": 56.048461253464154,
+    "substitutabilityScore": 47.04529159054909,
+    "capitalIntensityScore": 36.60693974983428,
+    "valueCaptureScore": 76.85561513237347,
+    "centralityScore": 75.58008306179806
+  },
+  {
+    "id": "ai",
+    "label": "C3.ai",
+    "shortLabel": "AI",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "AI",
+    "description": "Enterprise AI application software (not a frontier model lab).",
+    "roles": [],
+    "fundamentals": {
+      "pe": -11.418706,
+      "revenueTTM": 307391008,
+      "marketCap": 1393342720,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 0,
+    "pricingPowerScore": 16.666666666666668,
+    "substitutabilityScore": 70.83333333333333,
+    "capitalIntensityScore": 25,
+    "valueCaptureScore": 0,
+    "centralityScore": 34.375
+  },
+  {
+    "id": "sap",
+    "label": "SAP",
+    "shortLabel": "SAP",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "SAP",
+    "description": "ERP embedded AI copilots.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 23.986225,
+      "revenueTTM": 37341999104,
+      "marketCap": 205299286016,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 80.02755128702402,
+    "pricingPowerScore": 58.21805986884646,
+    "substitutabilityScore": 52.70097290290279,
+    "capitalIntensityScore": 36.396675529452125,
+    "valueCaptureScore": 74.31576798902151,
+    "centralityScore": 74.80459858454418
+  },
+  {
+    "id": "ddog",
+    "label": "Datadog",
+    "shortLabel": "DDOG",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "DDOG",
+    "description": "Observability for AI workloads.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 554.52496,
+      "revenueTTM": 3672030976,
+      "marketCap": 78955528192,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 73.9117684996531,
+    "pricingPowerScore": 59.436454456757126,
+    "substitutabilityScore": 44.837066772957755,
+    "capitalIntensityScore": 34.344818010572155,
+    "valueCaptureScore": 75.55176431187935,
+    "centralityScore": 64.8848459935275
+  },
+  {
+    "id": "mdb",
+    "label": "MongoDB",
+    "shortLabel": "MDB",
+    "nodeType": "company",
+    "clusterId": "enterprise_software",
+    "isCluster": false,
+    "ticker": "MDB",
+    "description": "Document DB for AI apps.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 41.575184,
+      "revenueTTM": 2463796992,
+      "marketCap": 23704010752,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Enterprise Software & SaaS cluster."
+    ],
+    "tags": [
+      "enterprise_software"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 69.9714206213122,
+    "pricingPowerScore": 65.00073851209238,
+    "substitutabilityScore": 47.74390796232503,
+    "capitalIntensityScore": 37.56898399570269,
+    "valueCaptureScore": 72.32390274278684,
+    "centralityScore": 64.52506378603243
+  },
+  {
+    "id": "ttd",
+    "label": "Trade Desk",
+    "shortLabel": "TTD",
+    "nodeType": "company",
+    "clusterId": "digital_advertising",
+    "isCluster": false,
+    "ticker": "TTD",
+    "description": "Programmatic ad infrastructure.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 25.329546,
+      "revenueTTM": 2969120000,
+      "marketCap": 10478715904,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Digital Advertising & Media cluster."
+    ],
+    "tags": [
+      "digital_advertising"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 81.50519330510988,
+    "pricingPowerScore": 73.41198438033925,
+    "substitutabilityScore": 53.47167915042282,
+    "capitalIntensityScore": 40.236004743273725,
+    "valueCaptureScore": 73.0473158051834,
+    "centralityScore": 70.45683088047645
+  },
+  {
+    "id": "app",
+    "label": "AppLovin",
+    "shortLabel": "APP",
+    "nodeType": "company",
+    "clusterId": "digital_advertising",
+    "isCluster": false,
+    "ticker": "APP",
+    "description": "Mobile ads with ML optimization.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 49.24805,
+      "revenueTTM": 6164192256,
+      "marketCap": 190756536320,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Digital Advertising & Media cluster."
+    ],
+    "tags": [
+      "digital_advertising"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 78.7150586371403,
+    "pricingPowerScore": 70.5832619309986,
+    "substitutabilityScore": 42.61797818544213,
+    "capitalIntensityScore": 46.42712347402124,
+    "valueCaptureScore": 78.9202340192066,
+    "centralityScore": 68.22356910025731
+  },
+  {
+    "id": "pins",
+    "label": "Pinterest",
+    "shortLabel": "PINS",
+    "nodeType": "company",
+    "clusterId": "digital_advertising",
+    "isCluster": false,
+    "ticker": "PINS",
+    "description": "Visual discovery ads.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 41.729168,
+      "revenueTTM": 4374292992,
+      "marketCap": 11219951616,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Digital Advertising & Media cluster."
+    ],
+    "tags": [
+      "digital_advertising"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 77.59031871146951,
+    "pricingPowerScore": 67.21142528658949,
+    "substitutabilityScore": 45.18453249508951,
+    "capitalIntensityScore": 47.762197519660106,
+    "valueCaptureScore": 72.59599340462849,
+    "centralityScore": 73.8566423478329
+  },
+  {
+    "id": "snap",
+    "label": "Snap",
+    "shortLabel": "SNAP",
+    "nodeType": "company",
+    "clusterId": "digital_advertising",
+    "isCluster": false,
+    "ticker": "SNAP",
+    "description": "Short-form ads and AR.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 7.9949965,
+      "revenueTTM": 6097020928,
+      "marketCap": 9744106496,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Digital Advertising & Media cluster."
+    ],
+    "tags": [
+      "digital_advertising"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 78.15311716148894,
+    "pricingPowerScore": 69.1077948502813,
+    "substitutabilityScore": 52.611094999997164,
+    "capitalIntensityScore": 38.69570698512624,
+    "valueCaptureScore": 76.23916185481066,
+    "centralityScore": 71.005981443029
+  },
+  {
+    "id": "rok",
+    "label": "Rockwell Automation",
+    "shortLabel": "ROK",
+    "nodeType": "company",
+    "clusterId": "industrial_automation",
+    "isCluster": false,
+    "ticker": "ROK",
+    "description": "Factory controls and automation.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 47.40956,
+      "revenueTTM": 8803999744,
+      "marketCap": 50749820928,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Industrial & Automation cluster."
+    ],
+    "tags": [
+      "industrial_automation"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 52.71794218727412,
+    "pricingPowerScore": 52.5206320068342,
+    "substitutabilityScore": 46.7612078874388,
+    "capitalIntensityScore": 51.82277853552166,
+    "valueCaptureScore": 49.717426780552586,
+    "centralityScore": 50.40513485405428
+  },
+  {
+    "id": "hon",
+    "label": "Honeywell",
+    "shortLabel": "HON",
+    "nodeType": "company",
+    "clusterId": "industrial_automation",
+    "isCluster": false,
+    "ticker": "HON",
+    "description": "Building and industrial controls.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 37.048,
+      "revenueTTM": 37660000256,
+      "marketCap": 146722390016,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Industrial & Automation cluster."
+    ],
+    "tags": [
+      "industrial_automation"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 62.05794410193508,
+    "pricingPowerScore": 48.56410972415534,
+    "substitutabilityScore": 54.735312738598886,
+    "capitalIntensityScore": 50.350127198877665,
+    "valueCaptureScore": 47.13424176207904,
+    "centralityScore": 56.53589449836685
+  },
+  {
+    "id": "siegy",
+    "label": "Siemens AG",
+    "shortLabel": "SIEGY",
+    "nodeType": "company",
+    "clusterId": "industrial_automation",
+    "isCluster": false,
+    "ticker": "SIEGY",
+    "description": "Industrial software and automation (ADR).",
+    "roles": [],
+    "fundamentals": {
+      "pe": 28.428827,
+      "revenueTTM": 79699001344,
+      "marketCap": 245769158656,
+      "currency": "USD",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Industrial & Automation cluster."
+    ],
+    "tags": [
+      "industrial_automation"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 58.51268747469737,
+    "pricingPowerScore": 54.08771146931622,
+    "substitutabilityScore": 46.65250019160779,
+    "capitalIntensityScore": 44.11585361369653,
+    "valueCaptureScore": 46.52346032084291,
+    "centralityScore": 49.55396721443999
+  },
+  {
+    "id": "su_pa",
+    "label": "Schneider Electric",
+    "shortLabel": "SU.PA",
+    "nodeType": "company",
+    "clusterId": "industrial_automation",
+    "isCluster": false,
+    "ticker": "SU.PA",
+    "description": "Power and building management for facilities and DCs.",
+    "roles": [],
+    "fundamentals": {
+      "pe": 33.53567,
+      "revenueTTM": 40151998464,
+      "marketCap": 150761881600,
+      "currency": "EUR",
+      "source": "yfinance",
+      "asOf": "2026-05-28T08:39:15Z"
+    },
+    "timeToScale": "N/A",
+    "geography": "Global",
+    "exampleCompanies": [],
+    "evidence": [
+      "Public company mapped to Industrial & Automation cluster."
+    ],
+    "tags": [
+      "industrial_automation"
+    ],
+    "relatedMetrics": {
+      "marketCapTier": "large"
+    },
+    "importanceScore": 58.52160626756485,
+    "pricingPowerScore": 57.48722678726865,
+    "substitutabilityScore": 55.7963857703587,
+    "capitalIntensityScore": 49.14955234871117,
+    "valueCaptureScore": 45.69786779198994,
+    "centralityScore": 52.088060421013374
+  }
+]

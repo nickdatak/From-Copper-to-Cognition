@@ -1,0 +1,10 @@
+[
+  {
+    "id": "base",
+    "label": "Base AI Buildout",
+    "description": "Broad capex cycle; clusters along the chain expand in parallel.",
+    "nodeScoreOverrides": {},
+    "highlightNodeIds": [],
+    "highlightEdgeTypes": []
+  }
+]

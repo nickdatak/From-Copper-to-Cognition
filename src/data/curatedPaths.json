@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p1",
+    "label": "Raw Materials → Hyperscaler",
+    "startNodeId": "raw_materials",
+    "endNodeId": "hyperscaler_cloud",
+    "description": "Copper and inputs through infra to cloud capex."
+  },
+  {
+    "id": "p2",
+    "label": "Semi Equipment → AI Compute",
+    "startNodeId": "semi_equipment",
+    "endNodeId": "ai_accel_compute",
+    "description": "Tooling and packaging enabling GPU shipments."
+  },
+  {
+    "id": "p3",
+    "label": "Hyperscaler → Digital Ads",
+    "startNodeId": "hyperscaler_cloud",
+    "endNodeId": "digital_advertising",
+    "description": "Cloud AI investment monetized via ads platforms."
+  }
+]

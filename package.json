@@ -1,0 +1,53 @@
+{
+  "name": "copper-to-cognition",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "data:generate": "node scripts/generate-company-data.mjs",
+    "data:fundamentals": "python3 scripts/fetch_fundamentals_yfinance.py",
+    "data:locations": "python3 scripts/fetch_company_locations.py",
+    "data:metrics": "python3 scripts/fetch_company_metrics.py",
+    "data:scores": "python3 scripts/compute_research_scores.py",
+    "data:research-scores": "npm run data:generate && npm run data:metrics && npm run data:scores && npm run data:generate",
+    "data:refresh": "npm run data:generate && npm run data:fundamentals && npm run data:research-scores",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cytoscape": "^3.33.4",
+    "cytoscape-fcose": "^2.2.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-globe.gl": "^2.38.0",
+    "react-router-dom": "^7.15.1",
+    "three": "^0.184.0",
+    "topojson-client": "^3.1.0",
+    "us-atlas": "^3.0.1",
+    "world-atlas": "^2.0.2",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/cytoscape": "^3.21.9",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12"
+  }
+}
