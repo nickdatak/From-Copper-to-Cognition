@@ -1,5 +1,8 @@
 # Copper to Cognition
 
+<img width="1470" height="831" alt="Screenshot 2026-05-30 at 13 18 16" src="https://github.com/user-attachments/assets/d0f24de4-11ca-4ae0-bc3d-589a62ffeb2f" />
+<img width="1470" height="830" alt="Screenshot 2026-05-30 at 13 17 48" src="https://github.com/user-attachments/assets/c93ca042-d73f-4536-8221-187bfd8c3e04" />
+
 **An interactive map of the AI infrastructure value chain** — from raw materials and grid power through semiconductors, hyperscale cloud, model labs, and monetization. The product is **exploration and sense-making**, not a finished research report.
 
 Think Obsidian-meets-capital-markets: a **graph-first** canvas where you pan, filter, trace dependencies, and inspect companies — plus a **3D globe** for geographic footprint. The numbers and topology are **curated scaffolding** meant to be swapped for your own data later.
